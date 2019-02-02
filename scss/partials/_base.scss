@@ -1,0 +1,35 @@
+// Homepage
+
+// Gallery
+
+// Contact Form
+
+body {
+    margin: 0;
+}
+
+input {
+    @include inputs;
+    width: 400px;   
+}
+
+
+select {
+    @include inputs;
+    width: 430px; 
+}
+
+textarea {
+    width: 400px;
+    border-radius:20px;
+    outline: none;
+    padding: 20px 20px 0 20px;  
+}
+
+button {
+    background: #6cbe42;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}

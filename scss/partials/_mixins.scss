@@ -1,0 +1,14 @@
+/* Mixins -------------------- */
+
+@mixin inputs {
+    height: 40px;
+    border-radius: 18px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+@mixin input-hover {
+    width: 430px;
+}
