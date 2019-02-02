@@ -1,35 +1,48 @@
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+
+body {
+    margin: 0;
+    
+}
+
+
 // Homepage
 
 // Gallery
 
 // Contact Form
 
-body {
-    margin: 0;
-}
-
 input {
     @include inputs;
-    width: 400px;   
+    width: 25rem;   
 }
 
 
 select {
     @include inputs;
-    width: 430px; 
+    width: 26.25rem; 
 }
+
 
 textarea {
-    width: 400px;
-    border-radius:20px;
+    width: 380px;
+    border-radius: 1.25rem;
     outline: none;
-    padding: 20px 20px 0 20px;  
+    padding: 1.25rem 1.25rem 0 1.25rem;  
 }
 
+
 button {
-    background: #6cbe42;
-    padding-left: 2em;
-    padding-right: 2em;
-    margin-top: 50px;
-    margin-bottom: 30px;
+    -webkit-border-radius:20px;
+    width: 120px;
+    height: 40px;
+    border: none;
+    margin: 20px 0 56px 0;
+    font-size: 15px;
+    font-weight: bold;
 }

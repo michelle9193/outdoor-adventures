@@ -1,4 +1,6 @@
-// Web Fonts
+/* Web Fonts -------------------- */
+@import 'https://fonts.googleapis.com/css?family=Noto+Sans+SC|Unlock|Roboto|Oswald';
+@import 'https://use.fontawesome.com/releases/v5.7.0/css/all.css';
 
 
 // Homepage
@@ -9,20 +11,27 @@
 
 .container {
     background-color: aqua;
-    background-repeat: no-repeat;
-    background-size: cover;
     text-align: center;
       
 }
 
 #contact {
     margin-top: 0;
-    margin-bottom: 60px;
-    padding-top: 50px;
+    margin-bottom: 40px;
+    padding-top: 30px;
     text-transform: uppercase;
     text-align: center;
-    
+    font-family: 'Roboto';
 }
+
+
+
+button:hover {
+    background-color: pink;
+    width: 140px;
+    transition: all .6s ease-in-out;
+}
+
 
 
 

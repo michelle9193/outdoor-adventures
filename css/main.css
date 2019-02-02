@@ -1,4 +1,10 @@
 /* Mixins -------------------- */
+@import "https://fonts.googleapis.com/css?family=Noto+Sans+SC|Unlock|Roboto|Oswald";
+@import "https://use.fontawesome.com/releases/v5.7.0/css/all.css";
+html {
+  scroll-behavior: smooth;
+  height: 100%; }
+
 body {
   margin: 0; }
 
@@ -8,8 +14,8 @@ input {
   border: none;
   outline: none;
   padding-left: 20px;
-  margin-bottom: 30px;
-  width: 400px; }
+  margin-bottom: 15px;
+  width: 25rem; }
 
 select {
   height: 40px;
@@ -17,33 +23,40 @@ select {
   border: none;
   outline: none;
   padding-left: 20px;
-  margin-bottom: 30px;
-  width: 430px; }
+  margin-bottom: 15px;
+  width: 26.25rem; }
 
 textarea {
-  width: 400px;
-  border-radius: 20px;
+  width: 380px;
+  border-radius: 1.25rem;
   outline: none;
-  padding: 20px 20px 0 20px; }
+  padding: 1.25rem 1.25rem 0 1.25rem; }
 
 button {
-  background: #6cbe42;
-  padding-left: 2em;
-  padding-right: 2em;
-  margin-top: 50px;
-  margin-bottom: 30px; }
+  -webkit-border-radius: 20px;
+  width: 120px;
+  height: 40px;
+  border: none;
+  margin: 20px 0 56px 0;
+  font-size: 15px;
+  font-weight: bold; }
 
+/* Web Fonts -------------------- */
 .container {
   background-color: aqua;
-  background-repeat: no-repeat;
-  background-size: cover;
   text-align: center; }
 
 #contact {
   margin-top: 0;
-  margin-bottom: 60px;
-  padding-top: 50px;
+  margin-bottom: 40px;
+  padding-top: 30px;
   text-transform: uppercase;
-  text-align: center; }
+  text-align: center;
+  font-family: 'Roboto'; }
+
+button:hover {
+  background-color: pink;
+  width: 140px;
+  transition: all .6s ease-in-out; }
 
 /*# sourceMappingURL=main.css.map */
