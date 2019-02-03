@@ -12,6 +12,68 @@
 // Contact Form
 // ====================================================================================================
 
+
+
+@media (min-width: 2560px) {
+
+    input {
+        height: 50px;
+        width: 500px;
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+    
+    
+    select {
+        height: 50px;
+        width: 520px; 
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    
+    textarea {
+        width: 485px;
+        height: 300px;
+        margin-top: 0;
+        font-size: 15px;
+    }
+    
+    button {
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        height: 50px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+    
+    .container {
+        height: 1100px;
+        opacity: 0.6;
+    }
+    
+    #contact {
+        font-size: 48px;
+        padding: 50px 0 30px 0;
+        letter-spacing: 7px;
+    }
+    
+    .form {
+        padding: 60px 0 50px;
+        margin-left: 800px;
+        margin-right: 800px;
+      
+    }
+    
+    button:hover {
+        background-color: pink;
+        width: 250px;
+        transition: all .6s ease-in-out;
+    }
+}
+
+//=========================================================================================================
+
 @media (max-width: 1024px) {
 
     input {
@@ -120,3 +182,137 @@
 }
 
 //=========================================================================================================
+
+@media (max-width: 425px) {
+
+    input {
+        height: 30px;
+        width: 250px;
+        font-size: 10px;
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+    
+    select {
+        height: 30px;
+        width: 270px;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    
+    textarea {
+        width: 230px;
+        height: 200px;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    
+    button {
+        width: 120px;
+        font-size: 9px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .container {
+        height: 700px;
+        opacity: 0.6;
+    }
+    
+    #contact {
+        font-size: 20px;
+        padding: 30px 0 10px 0;
+        letter-spacing: 5px;
+    }
+    
+    .form {
+        padding: 20px 0;
+        margin-left: 40px;
+        margin-right: 40px;
+      
+    }
+    
+    button:hover {
+        background-color: pink;
+        width: 200px;
+        transition: all .6s ease-in-out;
+    }
+}
+
+//=========================================================================================================
+
+@media (max-width: 375px) {
+    textarea {
+        height: 150px;
+    }
+}
+
+//=========================================================================================================
+
+@media (max-width: 320px) {
+
+    input {
+        height: 23px;
+        width: 200px;
+        font-size: 10px;
+        font-weight: bold;
+        margin-bottom: 12px;
+        border-radius: 10px;
+
+    }
+    
+    select {
+        height: 25px;
+        width: 220px;
+        font-size: 10px;
+        font-weight: bold;
+        border-radius: 10px;
+        margin-bottom: 12px;
+    }
+    
+    textarea {
+        width: 200px;
+        border-radius: 7px;
+        height: 170px;
+        font-size: 10px;
+        font-weight: bold;
+        padding: 10px 10px 0 10px;   
+    }
+    
+    button {
+        width: 100px;
+        height: 30px;
+        font-size: 9px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border-radius: 15px;
+        margin-top: 20px;
+    }
+
+    .container {
+        height: 630px;
+        opacity: 0.6;
+
+    }
+    
+    #contact {
+        font-size: 15px;
+        padding: 30px 0 10px 0;
+        letter-spacing: 5px;
+    }
+    
+    .form {
+        padding: 20px 0;
+        margin-left: 40px;
+        margin-right: 40px;
+        border-radius: 7px;
+    }
+    
+    button:hover {
+        background-color: pink;
+        width: 200px;
+        transition: all .6s ease-in-out;
+    }
+}
