@@ -5,6 +5,31 @@
 
 // Homepage
 
+/* Navbar container */
+.navbar {
+
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+  }
+
+  a {
+    .navbar a {
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+  }
+
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+
 // Gallery
 
 // Contact Form
@@ -38,7 +63,19 @@
     border-radius: 10px;
 }
 
-button:hover {
+.submit {
+    -webkit-border-radius:20px;
+    width: 120px;
+    height: 40px;
+    border: none;
+    margin: 20px 0 30px 0;
+    font-size: 15px;
+    font-weight: bold;
+    outline: none;
+
+}
+
+.submit:hover {
     background-color: pink;
     width: 140px;
     transition: all .6s ease-in-out;

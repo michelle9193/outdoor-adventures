@@ -8,11 +8,26 @@
 // Gallery
 // ====================================================================================================
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // ====================================================================================================
 // Contact Form
 // ====================================================================================================
-
-
 
 @media (min-width: 2560px) {
 
@@ -38,13 +53,14 @@
         font-size: 15px;
     }
     
-    button {
+    .submit {
         text-transform: uppercase;
         letter-spacing: 2px;
         height: 50px;
         margin-top: 30px;
         margin-bottom: 10px;
         font-size: 15px;
+        outline: none;
     }
     
     .container {
@@ -65,7 +81,7 @@
       
     }
     
-    button:hover {
+    .submit:hover {
         background-color: pink;
         width: 250px;
         transition: all .6s ease-in-out;
@@ -98,12 +114,14 @@
         font-size: 15px;
     }
     
-    button {
+    .submit {
         width: 150px;
         height: 40px;
         margin-top: 30px;
         margin-bottom: 10px;
         font-size: 15px;
+        outline: none;
+
     }
     
     .container {
@@ -124,7 +142,7 @@
       
     }
     
-    button:hover {
+    .submit:hover {
         background-color: pink;
         width: 250px;
         transition: all .6s ease-in-out;
@@ -152,8 +170,10 @@
         font-size: 15px;
     }
     
-    button {
+    .submit {
         width: 120px;
+        outline: none;
+
     }
     
     .container {
@@ -174,7 +194,7 @@
       
     }
     
-    button:hover {
+    .submit:hover {
         background-color: pink;
         width: 200px;
         transition: all .6s ease-in-out;
@@ -207,12 +227,14 @@
         font-weight: bold;
     }
     
-    button {
+    .submit {
         width: 120px;
         font-size: 9px;
         font-weight: bold;
         text-transform: uppercase;
         letter-spacing: 1px;
+        outline: none;
+
     }
 
     .container {
@@ -233,7 +255,7 @@
       
     }
     
-    button:hover {
+    .submit:hover {
         background-color: pink;
         width: 200px;
         transition: all .6s ease-in-out;
@@ -280,7 +302,7 @@
         padding: 10px 10px 0 10px;   
     }
     
-    button {
+    .submit {
         width: 100px;
         height: 30px;
         font-size: 9px;
@@ -289,6 +311,8 @@
         letter-spacing: 1px;
         border-radius: 15px;
         margin-top: 20px;
+        outline: none;
+
     }
 
     .container {
@@ -310,9 +334,11 @@
         border-radius: 7px;
     }
     
-    button:hover {
+    .submit:hover {
         background-color: pink;
         width: 200px;
         transition: all .6s ease-in-out;
     }
 }
+
+//=========================================================================================================
