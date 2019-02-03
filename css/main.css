@@ -1,5 +1,5 @@
 /* Mixins -------------------- */
-@import "https://fonts.googleapis.com/css?family=Noto+Sans+SC|Unlock|Roboto|Oswald";
+@import "https://fonts.googleapis.com/css?family=Noto+Sans+SC|Unlock|Roboto|Oswald|Fahkwang";
 @import "https://use.fontawesome.com/releases/v5.7.0/css/all.css";
 html {
   scroll-behavior: smooth;
@@ -15,6 +15,7 @@ input {
   outline: none;
   padding-left: 20px;
   margin-bottom: 15px;
+  color: black;
   width: 25rem; }
 
 select {
@@ -24,11 +25,13 @@ select {
   outline: none;
   padding-left: 20px;
   margin-bottom: 15px;
+  color: black;
   width: 26.25rem; }
 
 textarea {
   width: 380px;
   border-radius: 1.25rem;
+  border: none;
   outline: none;
   padding: 1.25rem 1.25rem 0 1.25rem; }
 
@@ -37,26 +40,45 @@ button {
   width: 120px;
   height: 40px;
   border: none;
-  margin: 20px 0 56px 0;
+  margin: 20px 0 30px 0;
   font-size: 15px;
   font-weight: bold; }
 
 /* Web Fonts -------------------- */
 .container {
-  background-color: aqua;
-  text-align: center; }
+  background: url(../../../../../../Users/Acer/Desktop/outdoor-adventures/images/Chris-Davies-Oewerzicht-Camping-768x499.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1078px;
+  text-align: center;
+  opacity: 0.8; }
 
 #contact {
   margin-top: 0;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   padding-top: 30px;
   text-transform: uppercase;
   text-align: center;
-  font-family: 'Roboto'; }
+  font-family: 'Fahkwang', sans-serif;
+  font-weight: bolder;
+  letter-spacing: 5px; }
+
+.form {
+  opacity: 0.8;
+  background-color: mistyrose;
+  padding-top: 32px;
+  margin-left: 350px;
+  margin-right: 350px;
+  border-radius: 10px; }
 
 button:hover {
   background-color: pink;
   width: 140px;
   transition: all .6s ease-in-out; }
+
+input::placeholder,
+textarea::placeholder {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif; }
 
 /*# sourceMappingURL=main.css.map */
