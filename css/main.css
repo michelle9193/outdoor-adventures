@@ -36,23 +36,81 @@ textarea {
   padding: 1.25rem 1.25rem 0 1.25rem; }
 
 /* Web Fonts -------------------- */
-/* Navbar container */
+/* Navbar */
 .navbar {
   overflow: hidden;
-  background-color: #333;
-  font-family: Arial; }
-
-a .navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
+  background-color: transparent;
+  font-family: Arial;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none; }
+  background-color: grey; }
+
+ul {
+  display: block;
+  list-style-type: none; }
+
+li {
+  display: inline-block; }
+
+.navitem {
+  text-decoration: none;
+  margin-right: 30px; }
 
 .dropdown {
-  float: left;
-  overflow: hidden; }
+  display: inline; }
+
+.dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; }
+
+.activities {
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none; }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  color: transparent;
+  min-width: 120px;
+  align-content: center;
+  margin-left: 563px;
+  z-index: 1; }
+
+/* Links inside dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  background-color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block; }
+
+/* Add a grey background color to dropdown links on hover */
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+  width: 50px;
+  cursor: pointer;
+  background: transparent; }
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+  cursor: pointer; }
+
+.main-header {
+  background-image: url(../../../../../../Users/Acer/Desktop/outdoor-adventures/images/f69c74f68df1db5a95c91e9e7193f20f.preview.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40rem;
+  text-align: center; }
 
 .container {
   background: url(../../../../../../Users/Acer/Desktop/outdoor-adventures/images/Chris-Davies-Oewerzicht-Camping-768x499.jpg);
