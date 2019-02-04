@@ -82,7 +82,7 @@
     display: block;
   }
 .main-header {
-    background-image: url(../../../../../../Users/Acer/Desktop/outdoor-adventures/images/f69c74f68df1db5a95c91e9e7193f20f.preview.jpg);
+    background-image: url(../../);
     height: 500px;
     background-repeat: no-repeat;
         background-size: cover;
@@ -97,10 +97,11 @@
 // Contact Form
 
 .container {
-    background: url(../../../../../../Users/Acer/Desktop/outdoor-adventures/images/Chris-Davies-Oewerzicht-Camping-768x499.jpg);
+    background-image: url(../images/flowers.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 626px; 
+    max-height: 100%;
+    height: 657px; 
     text-align: center;
     opacity: 0.8;
 }
