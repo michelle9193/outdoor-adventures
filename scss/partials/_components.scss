@@ -1,5 +1,5 @@
 /* Web Fonts -------------------- */
-@import 'https://fonts.googleapis.com/css?family=Noto+Sans+SC|Unlock|Roboto|Oswald|Fahkwang';
+@import 'https://fonts.googleapis.com/css?family=Noto+Sans+SC|Unlock|Roboto|Oswald|Fahkwang|Montserrat';
 @import 'https://use.fontawesome.com/releases/v5.7.0/css/all.css';
 
 
@@ -9,85 +9,61 @@
 
 .navbar {
     overflow: hidden;
-    background-color: #333;
-  }
+    background-color:  rgba(187, 175, 175, 0.5);
+}
   
-  ul {
-    float: right;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-
-  ul li {
-      float: left;
-  }
-  
-  li {
-      list-style: none;
-      display: inline;
-  }
-
-
-
-  .dropdown {
-    float: right;
-    overflow: hidden;
-  }
-
-  .navright {
-      float: right;
-  }
-  
-  .dropdown .dropbtn {
-    font-size: 16px;  
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-  }
-  
-  .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    float: none;
+.text {
     color: black;
-    padding: 12px 16px;
+    width: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.dropdown-content {
+    display: none; 
+    position: absolute;
+    top: 88px;
+    left: 220px;
+    min-width: 150px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    text-decoration: none; 
+    display: block;
+}
+
+
+a.text.activities {
+    color: black;
+    padding: 12px 0;
     text-decoration: none;
     display: block;
-    text-align: left;
-  }
-  
-  .dropdown-content a:hover {
-    background-color: #ddd;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
+    text-align: center;
+    padding-left: 15px; 
+}
+
+
+a.navitem {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
 .main-header {
-    background-image: url(../../);
+    background-image: url(../images/self-catering-cottages-greyton-south-africa-2.jpg);
+    position: relative;
     height: 500px;
     background-repeat: no-repeat;
-        background-size: cover;
-        height: 40rem; 
-        text-align: center;
+    background-size: contain;
+    height: 40rem; 
+    text-align: center;
 }  
 
   
