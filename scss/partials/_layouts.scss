@@ -1,50 +1,54 @@
-.grid {
+// Camping Grid
+.grid1 {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "grid1 grid1 grid1"
+}       
+
+// Canoeing grid
+.grid2 {
     display: grid;
     grid-gap: 20px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "camping camping"
-        "camp camp"
-        "canoeing canoeing"
-        "climbing climbing"
-        "fishing fishing"
-        "hiking hiking"
-        "hunting hunting"
-}
+        "grid2 grid2 grid2"
+} 
 
-.camping {
-    grid-area: camping;
-}
+// Climbing gird
+.grid3 {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "grid3 grid3 grid3"
+} 
 
-.camp {
-    grid-area: camp;
-    grid-row: 2;
-}
+// Fishing grid
+.grid4 {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "grid4 grid4 grid4"
+} 
 
-.canoeing {
-    grid-area: canoeing;
-}
+// Hiking grid
+.grid5 {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "grid5 grid5 grid5"
+} 
 
-.canoe {
-    grid: canoe;
-}
-
-.climbing {
-    grid-area: climbing;
-}
-
-
-.fishing {
-    grid-area: fishing;
-}
-
-
-.hiking {
-    grid-area: hiking;
-}
-
-
-.hunting {
-    grid-area: hunting;
-}
+// Hunting
+.grid6 {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "grid6 grid6 grid6"
+} 
 

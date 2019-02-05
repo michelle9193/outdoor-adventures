@@ -36,25 +36,29 @@ a.text {
     display: block;
 }
 
-
-a.text.activities {
-    color: black;
-    padding: 12px 0;
-    text-decoration: none;
-    display: block;
+// Activities section
+.camping {
     text-align: center;
-    padding-left: 15px; 
+    border:2px solid black;
+    margin: 10px;
 }
 
-
-a.navitem {
-    color: black;
-    font-family: 'Montserrat', sans-serif;
-}
 
 * {
     box-sizing: border-box;
 }
+
+// Sizing of grid images
+.camp,
+.canoe,
+.climb,
+.fish,
+.hike,
+.hunt {
+    height: 18.75rem;
+    margin: auto;
+}
+
 
 .main-header {
     background-image: url(../images/camping_tents.jpg);

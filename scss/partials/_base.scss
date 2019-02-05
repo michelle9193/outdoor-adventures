@@ -24,8 +24,7 @@ ul {
     li {
         float: left;
         list-style: none;
-        width: 100px;
-        margin-right: 50px;
+        margin-right: 30px;
         padding-top: 10px;
   }
 
@@ -46,9 +45,48 @@ li a,
     display: inline-block;
 }
 
+
+
 li.dropdown {
     display: inline-block;
+    width: 100px;
+    margin-right: 50px;
 }
+
+a.text.activities {
+    color: black;
+    padding: 12px 0;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding-left: 15px; 
+}
+
+
+a.navitem {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+// Grid Section
+
+h2 {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 1.25rem;
+    border-radius: 0.625rem;
+    
+}
+
+p.camping {
+    margin: 10px 200px;
+}
+
 
 
 
