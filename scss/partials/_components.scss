@@ -12,8 +12,8 @@
     background-color:  rgba(187, 175, 175, 0.5);
 }
   
-.text {
-    color: black;
+a.text {
+    color: white;
     width: 16px;
     font-family: 'Montserrat', sans-serif;
 }
@@ -57,13 +57,13 @@ a.navitem {
 }
 
 .main-header {
-    background-image: url(../images/self-catering-cottages-greyton-south-africa-2.jpg);
-    position: relative;
-    height: 500px;
+    background-image: url(../images/camping_tents.jpg);
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: contain;
-    height: 40rem; 
+    background-size: cover;
+    height: 658px; 
     text-align: center;
+    padding-top: -40px;
 }  
 
   
@@ -73,7 +73,8 @@ a.navitem {
 // Contact Form
 
 .container {
-    background-image: url(../images/flowers.jpg);
+    background-image: url(../images/overnight-hiking-trails-oystercatcher-trail.jpg);
+    position: relative;
     background-repeat: no-repeat;
     background-size: cover;
     max-height: 100%;

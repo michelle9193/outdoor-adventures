@@ -1,0 +1,50 @@
+.grid {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "camping camping"
+        "camp camp"
+        "canoeing canoeing"
+        "climbing climbing"
+        "fishing fishing"
+        "hiking hiking"
+        "hunting hunting"
+}
+
+.camping {
+    grid-area: camping;
+}
+
+.camp {
+    grid-area: camp;
+    grid-row: 2;
+}
+
+.canoeing {
+    grid-area: canoeing;
+}
+
+.canoe {
+    grid: canoe;
+}
+
+.climbing {
+    grid-area: climbing;
+}
+
+
+.fishing {
+    grid-area: fishing;
+}
+
+
+.hiking {
+    grid-area: hiking;
+}
+
+
+.hunting {
+    grid-area: hunting;
+}
+
