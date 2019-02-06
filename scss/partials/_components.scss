@@ -10,10 +10,13 @@
 .navbar {
     overflow: hidden;
     background-color:  rgba(187, 175, 175, 0.5);
+    margin-top: 50px;
+    margin-bottom: 200px;
 }
   
 a.text {
-    color: white;
+    color: black;
+    font-weight: bold;
     width: 16px;
     font-family: 'Montserrat', sans-serif;
 }
@@ -22,8 +25,8 @@ a.text {
 .dropdown-content {
     display: none; 
     position: absolute;
-    top: 88px;
-    left: 220px;
+    top: 78px;
+    left: 180px;
     min-width: 150px;
 }
 
@@ -61,19 +64,45 @@ a.text {
 
 
 .main-header {
-    background-image: url(../images/camping_tents.jpg);
+    background-image: url(../images/pexels-photo-1183986.jpeg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     height: 658px; 
     text-align: center;
-    padding-top: -40px;
+    margin: -60px 10px 10px 10px;
 }  
 
-  
 
+.main {
+
+    &-heading {
+        text-align: center;
+        font-size: 5.625rem;
+        text-transform: uppercase;
+        font-family: 'Oswald' , sans-serif;
+        font-weight: normal;
+        line-height: 1.3;
+        margin: 12px 0 0;
+    }
+
+    &-title {
+        color: white;
+        font-size: 1.625rem;
+        letter-spacing: .065em;
+        font-weight: 200;
+        border-bottom: 2px solid;
+        padding-bottom: 10px;
+    }
+}    
+
+  
+//=============================================================================================
 // Gallery
 
+
+
+//=============================================================================================
 // Contact Form
 
 .container {
@@ -96,15 +125,6 @@ a.text {
     font-family: 'Fahkwang', sans-serif;
     font-weight: bolder;
     letter-spacing: 5px;
-}
-
-.form {
-    opacity: 0.8;
-    background-color: mistyrose;
-    padding-top: 32px;
-    margin-left: 420px;
-    margin-right: 420px;
-    border-radius: 10px;
 }
 
 .submit {
@@ -130,6 +150,3 @@ textarea::placeholder {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-
-

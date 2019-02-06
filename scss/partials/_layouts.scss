@@ -1,54 +1,76 @@
 // Camping Grid
 .grid1 {
     display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "grid1 grid1 grid1"
-}       
+        "camp-head camp-head"
+        "camp-pic camp-pic2"
+        "camp-par camp-par2"   
+}     
+
+.camp-head {
+    grid-area: camp-head;
+}
+
+.camp-pic {
+    grid-area: camp-pic;
+}
+
+.camp-pic2 {
+    grid-area: camp-pic2;
+}
+
+.camp-par {
+    grid-area: camp-par;
+}
+
+.camp-par2 {
+    grid-area: camp-par2;
+}
+
 
 // Canoeing grid
-.grid2 {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-        "grid2 grid2 grid2"
-} 
+// .grid2 {
+//     display: grid;
+//     grid-gap: 20px;
+//     grid-template-columns: 1fr 1fr;
+//     grid-template-areas: 
+//         "grid2 grid2 grid2"
+// } 
 
 // Climbing gird
-.grid3 {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-        "grid3 grid3 grid3"
-} 
+// .grid3 {
+//     display: grid;
+//     grid-gap: 20px;
+//     grid-template-columns: 1fr 1fr;
+//     grid-template-areas: 
+//         "grid3 grid3 grid3"
+// } 
 
 // Fishing grid
-.grid4 {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-        "grid4 grid4 grid4"
-} 
+// .grid4 {
+//     display: grid;
+//     grid-gap: 20px;
+//     grid-template-columns: 1fr 1fr;
+//     grid-template-areas: 
+//         "grid4 grid4 grid4"
+// } 
 
 // Hiking grid
-.grid5 {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-        "grid5 grid5 grid5"
-} 
+// .grid5 {
+//     display: grid;
+//     grid-gap: 20px;
+//     grid-template-columns: 1fr 1fr;
+//     grid-template-areas: 
+//         "grid5 grid5 grid5"
+// } 
 
 // Hunting
-.grid6 {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-        "grid6 grid6 grid6"
-} 
+// .grid6 {
+//     display: grid;
+//     grid-gap: 20px;
+//     grid-template-columns: 1fr 1fr;
+//     grid-template-areas: 
+//         "grid6 grid6 grid6"
+// } 
 

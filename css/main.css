@@ -52,21 +52,35 @@ a.text.activities {
   padding-left: 15px; }
 
 a.navitem {
-  color: white;
+  color: black;
+  font-weight: bold;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase; }
+
+h1.main-heading {
+  color: white;
+  opacity: 0.9;
+  text-shadow: 2px 2px black; }
 
 h2 {
   text-align: center; }
 
 img {
-  max-width: 100%;
-  max-height: 100%;
+  margin-left: 70px;
+  width: 500px;
+  height: 280px;
   margin-bottom: 1.25rem;
-  border-radius: 0.625rem; }
+  border-radius: 3px; }
 
 p.camping {
   margin: 10px 200px; }
+
+form {
+  opacity: 0.8;
+  background-color: mistyrose;
+  padding-top: 32px;
+  margin: 0 420px;
+  border-radius: 10px; }
 
 input {
   height: 40px;
@@ -99,18 +113,21 @@ textarea {
 /* Navbar */
 .navbar {
   overflow: hidden;
-  background-color: rgba(187, 175, 175, 0.5); }
+  background-color: rgba(187, 175, 175, 0.5);
+  margin-top: 50px;
+  margin-bottom: 200px; }
 
 a.text {
-  color: white;
+  color: black;
+  font-weight: bold;
   width: 16px;
   font-family: 'Montserrat', sans-serif; }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  top: 88px;
-  left: 220px;
+  top: 78px;
+  left: 180px;
   min-width: 150px; }
 
 .dropdown:hover .dropdown-content {
@@ -138,13 +155,29 @@ a.text {
   margin: auto; }
 
 .main-header {
-  background-image: url(../images/camping_tents.jpg);
+  background-image: url(../images/pexels-photo-1183986.jpeg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   height: 658px;
   text-align: center;
-  padding-top: -40px; }
+  margin: -60px 10px 10px 10px; }
+
+.main-heading {
+  text-align: center;
+  font-size: 5.625rem;
+  text-transform: uppercase;
+  font-family: 'Oswald' , sans-serif;
+  font-weight: normal;
+  line-height: 1.3;
+  margin: 12px 0 0; }
+.main-title {
+  color: white;
+  font-size: 1.625rem;
+  letter-spacing: .065em;
+  font-weight: 200;
+  border-bottom: 2px solid;
+  padding-bottom: 10px; }
 
 .container {
   background-image: url(../images/overnight-hiking-trails-oystercatcher-trail.jpg);
@@ -165,14 +198,6 @@ a.text {
   font-family: 'Fahkwang', sans-serif;
   font-weight: bolder;
   letter-spacing: 5px; }
-
-.form {
-  opacity: 0.8;
-  background-color: mistyrose;
-  padding-top: 32px;
-  margin-left: 420px;
-  margin-right: 420px;
-  border-radius: 10px; }
 
 .submit {
   -webkit-border-radius: 20px;
@@ -429,38 +454,22 @@ textarea::placeholder {
     transition: all .6s ease-in-out; } }
 .grid1 {
   display: grid;
-  grid-gap: 20px;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: "grid1 grid1 grid1"; }
-
-.grid2 {
-  display: grid;
-  grid-gap: 20px;
   grid-template-columns: 1fr 1fr;
-  grid-template-areas: "grid2 grid2 grid2"; }
+  grid-template-areas: "camp-head camp-head" "camp-pic camp-pic2" "camp-par camp-par2"; }
 
-.grid3 {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas: "grid3 grid3 grid3"; }
+.camp-head {
+  grid-area: camp-head; }
 
-.grid4 {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas: "grid4 grid4 grid4"; }
+.camp-pic {
+  grid-area: camp-pic; }
 
-.grid5 {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas: "grid5 grid5 grid5"; }
+.camp-pic2 {
+  grid-area: camp-pic2; }
 
-.grid6 {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas: "grid6 grid6 grid6"; }
+.camp-par {
+  grid-area: camp-par; }
+
+.camp-par2 {
+  grid-area: camp-par2; }
 
 /*# sourceMappingURL=main.css.map */
