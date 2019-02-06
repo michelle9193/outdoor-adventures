@@ -40,12 +40,40 @@ a.text {
 }
 
 // Activities section
+
+// Camping section
 .camping {
     text-align: center;
-    border:2px solid black;
     margin: 10px;
 }
 
+.camp-pic,
+.canoe-pic,
+.climb-pic,
+.fish-pic,
+.hunt-pic,
+.hike-pic {
+    margin-left: 150px;
+}
+
+.camp-pic2,
+.canoe-pic2,
+.climb-pic2,
+.fish-pic2,
+.hunt-pic2,
+.hike-pic2 {
+    margin-left: 20px;
+}
+
+.camp-par,
+.canoe-par,
+.climb-par,
+.fish-par,
+.hunt-par,
+.hike-par {
+    text-align: center;
+    margin: 10px 100px;
+}
 
 * {
     box-sizing: border-box;
@@ -70,7 +98,7 @@ a.text {
     background-size: cover;
     height: 658px; 
     text-align: center;
-    margin: -60px 10px 10px 10px;
+    margin: -60px 10px 80px 10px;
 }  
 
 
