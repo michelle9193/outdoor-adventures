@@ -10,10 +10,19 @@ body {
 
 // Homepage
 
+nav {
+    overflow: hidden;
+    padding-top: 2.5rem;
+    padding-left: 1.25rem;
+    background-color: beige;
+    opacity: 0.4;
+}
+
+
 ul {
     float:right;
-    font-size: 1.25rem;
-    color: white;
+    font-size: 0.9375rem;
+    color: beige;
     text-align: center;
     text-decoration: none;
     margin: 0.625rem;
@@ -48,12 +57,16 @@ li a,
 li.dropdown {
     display: inline-block;
     width: 1.875rem;
-    margin-right: 9.375rem;
+    margin-right: 110px;
 }
 
-footer {
-    background-color: aqua;
-    height: 12.5rem;
+h3 {
+    font-family: 'Roboto';
+    border-top: 5px solid;
+    border-bottom: 1px solid;
+    font-size: 20px;
+    margin: 0 30px;
+    padding: 30px 30px;
 }
 
 // Grid Section
@@ -106,8 +119,9 @@ a {
     &.activity-link:hover {
     background-color: rgb(206, 255, 47);
     border: 0.125rem solid rgb(206, 255, 47);
-    color: white;
+    color: black;
     font-weight: bold;
+    border-radius: 5px;
     }    
 
     &.activity-link {
@@ -118,9 +132,26 @@ a {
 
 
 footer {
+    padding-top: 1.875rem;
     margin-top: 9.375rem;
-    height: 18.75rem;
+    height: 9.375rem;
     background-color: rgb(29, 26, 26);
+    opacity: 0.9;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    font-family: 'Roboto';
+    letter-spacing: 6px;
+    color: beige;
+    font-weight: bold;
+}
+
+i:nth-child(2),
+i:nth-child(3),
+i:nth-child(4)
+ {
+     margin-left: 0.9375rem;
+     padding-top: 1.875rem
 }
 
 
@@ -147,6 +178,8 @@ input {
 select {
     @include inputs;
     width: 26.25rem; 
+    background-color: beige;
+    opacity: 0.8;
 }
 
 
@@ -156,6 +189,11 @@ textarea {
     border: none;
     outline: none;
     padding: 1.25rem 1.25rem 0 1.25rem;  
+    background-color: beige;
+    opacity: 0.8;
 }
 
+button {
+    background-color: beige;
+}
 

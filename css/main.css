@@ -1,5 +1,5 @@
 /* Mixins -------------------- */
-@import "https://fonts.googleapis.com/css?family=Noto+Sans+SC|Unlock|Roboto|Oswald|Fahkwang|Abril+Fatface|Montserrat|Fjalla+One";
+@import "https://fonts.googleapis.com/css?family=Noto+Sans+SC|Unlock|Roboto|Oswald|Fahkwang|Abril+Fatface|Montserrat|Fjalla+One|Dancing+Script";
 @import "https://use.fontawesome.com/releases/v5.7.0/css/all.css";
 html {
   scroll-behavior: smooth;
@@ -8,10 +8,17 @@ html {
 body {
   margin: 0; }
 
+nav {
+  overflow: hidden;
+  padding-top: 2.5rem;
+  padding-left: 1.25rem;
+  background-color: beige;
+  opacity: 0.4; }
+
 ul {
   float: right;
-  font-size: 1.25rem;
-  color: white;
+  font-size: 0.9375rem;
+  color: beige;
   text-align: center;
   text-decoration: none;
   margin: 0.625rem;
@@ -40,11 +47,15 @@ li a,
 li.dropdown {
   display: inline-block;
   width: 1.875rem;
-  margin-right: 9.375rem; }
+  margin-right: 110px; }
 
-footer {
-  background-color: aqua;
-  height: 12.5rem; }
+h3 {
+  font-family: 'Roboto';
+  border-top: 5px solid;
+  border-bottom: 1px solid;
+  font-size: 20px;
+  margin: 0 30px;
+  padding: 30px 30px; }
 
 h2 {
   text-align: center;
@@ -85,16 +96,32 @@ a.navitem {
 a.activity-link:hover {
   background-color: #ceff2f;
   border: 0.125rem solid #ceff2f;
-  color: white;
-  font-weight: bold; }
+  color: black;
+  font-weight: bold;
+  border-radius: 5px; }
 a.activity-link {
   border: 0.125rem black solid;
   padding: 0.625rem; }
 
 footer {
+  padding-top: 1.875rem;
   margin-top: 9.375rem;
-  height: 18.75rem;
-  background-color: #1d1a1a; }
+  height: 9.375rem;
+  background-color: #1d1a1a;
+  opacity: 0.9;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  font-family: 'Roboto';
+  letter-spacing: 6px;
+  color: beige;
+  font-weight: bold; }
+
+i:nth-child(2),
+i:nth-child(3),
+i:nth-child(4) {
+  margin-left: 0.9375rem;
+  padding-top: 1.875rem; }
 
 form {
   opacity: 0.8;
@@ -110,6 +137,8 @@ input {
   padding-left: 1.25rem;
   margin-bottom: 0.9375rem;
   color: black;
+  background-color: beige;
+  opacity: 0.8;
   width: 25rem; }
 
 select {
@@ -120,37 +149,38 @@ select {
   padding-left: 1.25rem;
   margin-bottom: 0.9375rem;
   color: black;
-  width: 26.25rem; }
+  background-color: beige;
+  opacity: 0.8;
+  width: 26.25rem;
+  background-color: beige;
+  opacity: 0.8; }
 
 textarea {
   width: 23.75rem;
   border-radius: 0.6875rem;
   border: none;
   outline: none;
-  padding: 1.25rem 1.25rem 0 1.25rem; }
+  padding: 1.25rem 1.25rem 0 1.25rem;
+  background-color: beige;
+  opacity: 0.8; }
+
+button {
+  background-color: beige; }
 
 /* Web Fonts -------------------- */
-/* Navbar */
-.navbar {
-  overflow: hidden;
-  margin-top: 3.125rem;
-  margin-bottom: 12.5rem;
-  padding-top: 0.625rem;
-  padding-left: 1.25rem;
-  background-color: white;
-  opacity: 0.6; }
-
 .dropdown-content {
   display: none;
   position: absolute;
-  top: 3.125rem;
-  left: 34.375rem;
-  min-width: 9.375rem;
-  text-align: center; }
+  top: 3.5rem;
+  left: 640px;
+  width: 8.125rem;
+  text-align: center;
+  padding-right: 1.125rem; }
 
 .dropdown:hover .dropdown-content {
   display: block;
-  background-color: transparent; }
+  background-color: beige;
+  opacity: 0.9; }
 
 .dropdown-content a {
   text-decoration: none;
@@ -162,7 +192,9 @@ textarea {
 .grid4,
 .grid5,
 .grid6 {
-  margin: 1.25rem 6.25rem; }
+  margin: 1.25rem 6.25rem;
+  background-color: beige;
+  padding: 30px 0; }
 
 .activity-pic2 {
   margin-left: 1.875rem; }
@@ -194,7 +226,7 @@ textarea {
   text-transform: uppercase; }
 
 .main-header {
-  background-image: url(../images/pexels-photo-1183986.jpeg);
+  background-image: url(../images/adventure-alone-backlit-746386.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -210,43 +242,61 @@ textarea {
   font-weight: normal;
   line-height: 1.3;
   margin: 0.75rem 0 0;
-  color: white;
-  opacity: 0.9;
+  color: beige;
+  opacity: 0.8;
   text-shadow: 0.125rem 0.125rem black;
   letter-spacing: 0.5rem; }
 .main-title {
   font-family: 'Fjalla One';
   text-transform: uppercase;
-  color: black;
+  color: beige;
+  text-shadow: 0.125rem 0.125rem black;
   font-weight: bold;
   font-size: 1.875rem;
-  letter-spacing: .065em;
-  font-weight: 200;
+  letter-spacing: 2px;
   border-bottom: 0.125rem solid;
   padding-bottom: 0.625rem; }
+
+.secondary-header {
+  margin-top: 12.5rem; }
+
+.connect {
+  border-bottom: 0.0625rem solid;
+  padding-bottom: 0.75rem;
+  margin-bottom: 1.875rem; }
+
+.icons {
+  font-size: 2.25rem; }
+
+.copyright {
+  font-size: 0.625rem;
+  margin-top: 0.3125rem;
+  font-weight: normal; }
+
+.navtop {
+  padding-top: 0; }
 
 .container {
   background-image: url(../images/overnight-hiking-trails-oystercatcher-trail.jpg);
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
-  max-height: 100%;
-  height: 41.0625rem;
   text-align: center;
   opacity: 0.8; }
 
 #contact {
   margin-top: 0;
   margin-bottom: 1.25rem;
-  padding-top: 1.875rem;
+  padding-top: 3.125rem;
   text-transform: uppercase;
   text-align: center;
-  font-family: 'Fahkwang', sans-serif;
-  font-weight: bolder;
+  font-family: 'Fjalla One';
+  color: #272525;
   letter-spacing: 0.3125rem; }
 
 .submit {
-  -webkit-border-radius: 0.625rem;
+  color: black;
+  border-radius: 0.625rem;
   width: 7.5rem;
   height: 2.5rem;
   border: none;
@@ -256,7 +306,7 @@ textarea {
   outline: none; }
 
 .submit:hover {
-  background-color: pink;
+  opacity: 0,9;
   width: 8.75rem;
   transition: all .6s ease-in-out; }
 
@@ -264,6 +314,9 @@ input::placeholder,
 textarea::placeholder {
   color: black;
   font-family: Arial, Helvetica, sans-serif; }
+
+.foothead {
+  margin-top: 0; }
 
 /* Media Queries -------------------- */
 @media (min-width: 2560px) {

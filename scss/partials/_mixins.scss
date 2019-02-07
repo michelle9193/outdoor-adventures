@@ -8,8 +8,12 @@
     padding-left: 1.25rem;
     margin-bottom: 0.9375rem;
     color: black;
+    background-color: beige;
+    opacity: 0.8;
 }
 
 @mixin input-hover {
     width: 26.875rem;
+    background-color: beige;
+    opacity: 0.8;
 }
