@@ -1,5 +1,5 @@
 /* Mixins -------------------- */
-@import "https://fonts.googleapis.com/css?family=Noto+Sans+SC|Unlock|Roboto|Oswald|Fahkwang|Montserrat";
+@import "https://fonts.googleapis.com/css?family=Noto+Sans+SC|Unlock|Roboto|Oswald|Fahkwang|Abril+Fatface|Montserrat|Fjalla+One";
 @import "https://use.fontawesome.com/releases/v5.7.0/css/all.css";
 html {
   scroll-behavior: smooth;
@@ -9,29 +9,28 @@ body {
   margin: 0; }
 
 ul {
-  font-size: 20px;
+  float: right;
+  font-size: 1.25rem;
   color: white;
   text-align: center;
   text-decoration: none;
-  margin: 10px;
-  padding-top: 10px;
-  letter-spacing: 1px; }
+  margin: 0.625rem;
+  letter-spacing: 0.0625rem; }
 
 li {
   float: left;
   list-style: none;
-  margin-right: 30px;
-  padding-top: 10px; }
+  margin-right: 3.125rem;
+  padding-top: 0.625rem; }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: rgba(187, 175, 175, 0.5);
-  width: 150px;
+  width: 9.375rem;
   float: left;
-  padding-left: 10;
-  margin-left: -40px;
-  margin-top: -10px; }
+  padding-left: 0.625rem;
+  margin-left: 16.875rem;
+  margin-top: 0.625rem; }
 
 li a,
 .dropbtn {
@@ -40,71 +39,92 @@ li a,
 
 li.dropdown {
   display: inline-block;
-  width: 100px;
-  margin-right: 50px; }
+  width: 1.875rem;
+  margin-right: 9.375rem; }
 
-a.text.activities {
+footer {
+  background-color: aqua;
+  height: 12.5rem; }
+
+h2 {
+  text-align: center;
+  color: #181717;
+  font-family: 'Fjalla One';
+  font-size: 2.5rem;
+  letter-spacing: 0.625rem;
+  text-transform: uppercase;
+  padding-top: 5rem; }
+
+img {
+  margin-left: 3.125rem;
+  width: 31.25rem;
+  height: 17.5rem;
+  margin-bottom: 1.25rem;
+  border-radius: 0.1875rem; }
+
+a {
+  font-family: 'Roboto';
+  text-decoration: none;
   color: black;
-  padding: 12px 0;
+  letter-spacing: 0.0625rem; }
+
+a.text {
+  font-family: "Roboto";
+  color: black;
+  padding: 0.75rem 0;
   text-decoration: none;
   display: block;
-  text-align: center;
-  padding-left: 15px; }
-
+  padding-left: 0.9375rem;
+  padding-bottom: 0; }
 a.navitem {
   color: black;
   font-weight: bold;
-  font-family: 'Montserrat', sans-serif;
-  text-transform: uppercase; }
-
-h1.main-heading {
+  font-family: "Roboto";
+  text-transform: uppercase;
+  letter-spacing: 0.125rem; }
+a.activity-link:hover {
+  background-color: #ceff2f;
+  border: 0.125rem solid #ceff2f;
   color: white;
-  opacity: 0.9;
-  text-shadow: 2px 2px black; }
+  font-weight: bold; }
+a.activity-link {
+  border: 0.125rem black solid;
+  padding: 0.625rem; }
 
-h2 {
-  text-align: center; }
-
-img {
-  margin-left: 70px;
-  width: 500px;
-  height: 280px;
-  margin-bottom: 1.25rem;
-  border-radius: 3px; }
-
-p.camping {
-  margin: 10px 200px; }
+footer {
+  margin-top: 9.375rem;
+  height: 18.75rem;
+  background-color: #1d1a1a; }
 
 form {
   opacity: 0.8;
-  background-color: mistyrose;
-  padding-top: 32px;
-  margin: 0 420px;
-  border-radius: 10px; }
+  padding-top: 2rem;
+  margin: 0 26.25rem;
+  border-radius: 0.625rem; }
 
 input {
-  height: 40px;
-  border-radius: 18px;
+  height: 2.5rem;
+  border-radius: 0.625rem;
   border: none;
   outline: none;
-  padding-left: 20px;
-  margin-bottom: 15px;
+  padding-left: 1.25rem;
+  margin-bottom: 0.9375rem;
   color: black;
   width: 25rem; }
 
 select {
-  height: 40px;
-  border-radius: 18px;
+  height: 2.5rem;
+  border-radius: 0.625rem;
   border: none;
   outline: none;
-  padding-left: 20px;
-  margin-bottom: 15px;
+  padding-left: 1.25rem;
+  margin-bottom: 0.9375rem;
   color: black;
   width: 26.25rem; }
 
 textarea {
-  width: 380px;
-  border-radius: 1.25rem;
+  width: 23.75rem;
+  border-radius: 0.6875rem;
   border: none;
   outline: none;
   padding: 1.25rem 1.25rem 0 1.25rem; }
@@ -113,95 +133,97 @@ textarea {
 /* Navbar */
 .navbar {
   overflow: hidden;
-  background-color: rgba(187, 175, 175, 0.5);
-  margin-top: 50px;
-  margin-bottom: 200px; }
-
-a.text {
-  color: black;
-  font-weight: bold;
-  width: 16px;
-  font-family: 'Montserrat', sans-serif; }
+  margin-top: 3.125rem;
+  margin-bottom: 12.5rem;
+  padding-top: 0.625rem;
+  padding-left: 1.25rem;
+  background-color: white;
+  opacity: 0.6; }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  top: 78px;
-  left: 180px;
-  min-width: 150px; }
+  top: 3.125rem;
+  left: 34.375rem;
+  min-width: 9.375rem;
+  text-align: center; }
 
 .dropdown:hover .dropdown-content {
-  display: block; }
+  display: block;
+  background-color: transparent; }
 
 .dropdown-content a {
   text-decoration: none;
   display: block; }
 
-.camping {
+.grid1,
+.grid2,
+.grid3,
+.grid4,
+.grid5,
+.grid6 {
+  margin: 1.25rem 6.25rem; }
+
+.activity-pic2 {
+  margin-left: 1.875rem; }
+
+.activity-title {
   text-align: center;
-  margin: 10px; }
+  font-family: 'Roboto';
+  text-transform: uppercase;
+  font-size: 1.0625rem;
+  font-weight: bold;
+  letter-spacing: 0.125rem; }
 
-.camp-pic,
-.canoe-pic,
-.climb-pic,
-.fish-pic,
-.hunt-pic,
-.hike-pic {
-  margin-left: 150px; }
+.activity-desc {
+  padding-left: 3.125rem;
+  margin-right: 1.25rem;
+  font-family: 'Roboto';
+  letter-spacing: 0.0625rem; }
 
-.camp-pic2,
-.canoe-pic2,
-.climb-pic2,
-.fish-pic2,
-.hunt-pic2,
-.hike-pic2 {
-  margin-left: 20px; }
+.activity-desc2 {
+  padding-left: 1.875rem;
+  margin-right: 2.8125rem;
+  font-family: 'Roboto';
+  letter-spacing: 0.0625rem; }
 
-.camp-par,
-.canoe-par,
-.climb-par,
-.fish-par,
-.hunt-par,
-.hike-par {
+.activity-link {
+  font-family: 'Roboto';
   text-align: center;
-  margin: 10px 100px; }
-
-* {
-  box-sizing: border-box; }
-
-.camp,
-.canoe,
-.climb,
-.fish,
-.hike,
-.hunt {
-  height: 18.75rem;
-  margin: auto; }
+  margin-top: 1.875rem;
+  text-transform: uppercase; }
 
 .main-header {
   background-image: url(../images/pexels-photo-1183986.jpeg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 658px;
+  height: 41.125rem;
   text-align: center;
-  margin: -60px 10px 80px 10px; }
+  margin: -3.75rem 0 5rem 0; }
 
 .main-heading {
   text-align: center;
   font-size: 5.625rem;
   text-transform: uppercase;
-  font-family: 'Oswald' , sans-serif;
+  font-family: 'Fjalla One';
   font-weight: normal;
   line-height: 1.3;
-  margin: 12px 0 0; }
-.main-title {
+  margin: 0.75rem 0 0;
   color: white;
-  font-size: 1.625rem;
+  opacity: 0.9;
+  text-shadow: 0.125rem 0.125rem black;
+  letter-spacing: 0.5rem; }
+.main-title {
+  font-family: 'Fjalla One';
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: 1.875rem;
   letter-spacing: .065em;
   font-weight: 200;
-  border-bottom: 2px solid;
-  padding-bottom: 10px; }
+  border-bottom: 0.125rem solid;
+  padding-bottom: 0.625rem; }
 
 .container {
   background-image: url(../images/overnight-hiking-trails-oystercatcher-trail.jpg);
@@ -209,33 +231,33 @@ a.text {
   background-repeat: no-repeat;
   background-size: cover;
   max-height: 100%;
-  height: 657px;
+  height: 41.0625rem;
   text-align: center;
   opacity: 0.8; }
 
 #contact {
   margin-top: 0;
-  margin-bottom: 20px;
-  padding-top: 30px;
+  margin-bottom: 1.25rem;
+  padding-top: 1.875rem;
   text-transform: uppercase;
   text-align: center;
   font-family: 'Fahkwang', sans-serif;
   font-weight: bolder;
-  letter-spacing: 5px; }
+  letter-spacing: 0.3125rem; }
 
 .submit {
-  -webkit-border-radius: 20px;
-  width: 120px;
-  height: 40px;
+  -webkit-border-radius: 0.625rem;
+  width: 7.5rem;
+  height: 2.5rem;
   border: none;
-  margin: 20px 0 30px 0;
-  font-size: 15px;
+  margin: 1.25rem 0 1.875rem 0;
+  font-size: 0.9375rem;
   font-weight: bold;
   outline: none; }
 
 .submit:hover {
   background-color: pink;
-  width: 140px;
+  width: 8.75rem;
   transition: all .6s ease-in-out; }
 
 input::placeholder,
@@ -476,124 +498,39 @@ textarea::placeholder {
     background-color: pink;
     width: 200px;
     transition: all .6s ease-in-out; } }
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "foot-grid foot-grid2"; }
+
 .grid1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-areas: "camp-head camp-head" "camp-pic camp-pic2" "camp-par camp-par2"; }
-
-.camp-head {
-  grid-area: camp-head; }
-
-.camp-pic {
-  grid-area: camp-pic; }
-
-.camp-pic2 {
-  grid-area: camp-pic2; }
-
-.camp-par {
-  grid-area: camp-par; }
-
-.camp-par2 {
-  grid-area: camp-par2; }
+  grid-template-areas: "camping camping2"; }
 
 .grid2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-areas: "canoe-head canoe-head" "canoe-pic canoe-pic2" "canoe-par canoe-par2"; }
-
-.canoe-head {
-  grid-area: canoe-head; }
-
-.canoe-pic {
-  grid-area: canoe-pic; }
-
-.canoe-pic2 {
-  grid-area: canoe-pic2; }
-
-.canoe-par {
-  grid-area: canoe-par; }
-
-.canoe-par2 {
-  grid-area: canoe-par2; }
+  grid-template-areas: "canoeing canoeing2"; }
 
 .grid3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-areas: "climb-head climb-head" "climb-pic climb-pic2" "climb-par climb-par2"; }
-
-.climb-head {
-  grid-area: climb-head; }
-
-.climb-pic {
-  grid-area: climb-pic; }
-
-.climb-pic2 {
-  grid-area: climb-pic2; }
-
-.climb-par {
-  grid-area: climb-par; }
-
-.climb-par2 {
-  grid-area: climb-par2; }
+  grid-template-areas: "climbing climbing2"; }
 
 .grid4 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-areas: "fish-head fish-head" "fish-pic fish-pic2" "fish-par fish-par2"; }
-
-.fish-head {
-  grid-area: fish-head; }
-
-.fish-pic {
-  grid-area: fish-pic; }
-
-.fish-pic2 {
-  grid-area: fish-pic2; }
-
-.fish-par {
-  grid-area: fish-par; }
-
-.fish-par2 {
-  grid-area: fish-par2; }
+  grid-template-areas: "fishing fishing2"; }
 
 .grid5 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-areas: "hike-head hike-head" "hike-pic hike-pic2" "hike-par hike-par2"; }
-
-.hike-head {
-  grid-area: hike-head; }
-
-.hike-pic {
-  grid-area: hike-pic; }
-
-.hike-pic2 {
-  grid-area: hike-pic2; }
-
-.hike-par {
-  grid-area: hike-par; }
-
-.hike-par2 {
-  grid-area: hike-par2; }
+  grid-template-areas: "hiking hiking2"; }
 
 .grid6 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-areas: "hunt-head hunt-head" "hunt-pic hunt-pic2" "hunt-par hunt-par2"; }
-
-.hunt-head {
-  grid-area: hunt-head; }
-
-.hunt-pic {
-  grid-area: hunt-pic; }
-
-.hunt-pic2 {
-  grid-area: hunt-pic2; }
-
-.hunt-par {
-  grid-area: hunt-par; }
-
-.hunt-par2 {
-  grid-area: hunt-par2; }
+  grid-template-areas: "hunting hunting2"; }
 
 /*# sourceMappingURL=main.css.map */

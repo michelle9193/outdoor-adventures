@@ -1,182 +1,61 @@
+// Footer grid
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "foot-grid foot-grid2" 
+}
+
 // Camping Grid
 .grid1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "camp-head camp-head"
-        "camp-pic camp-pic2"
-        "camp-par camp-par2"   
+        "camping camping2" 
 }     
 
-.camp-head {
-    grid-area: camp-head;
-}
-
-.camp-pic {
-    grid-area: camp-pic;
-}
-
-.camp-pic2 {
-    grid-area: camp-pic2;
-}
-
-.camp-par {
-    grid-area: camp-par;
-}
-
-.camp-par2 {
-    grid-area: camp-par2;
-}
-
-
-// climbing grid
+// Canoeing gird
 .grid2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "canoe-head canoe-head"
-        "canoe-pic canoe-pic2"
-        "canoe-par canoe-par2" 
+        "canoeing canoeing2" 
 } 
 
-.canoe-head {
-    grid-area: canoe-head;
-}
-
-.canoe-pic {
-    grid-area: canoe-pic;
-}
-
-.canoe-pic2 {
-    grid-area: canoe-pic2;
-}
-
-.canoe-par {
-    grid-area: canoe-par;
-}
-
-.canoe-par2 {
-    grid-area: canoe-par2;
-}
-
-
-// Climbing gird
+// Climbing grid
 .grid3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "climb-head climb-head"
-        "climb-pic climb-pic2"
-        "climb-par climb-par2" 
-} 
-
-.climb-head {
-    grid-area: climb-head;
+        "climbing climbing2" 
 }
 
-.climb-pic {
-    grid-area: climb-pic;
-}
 
-.climb-pic2 {
-    grid-area: climb-pic2;
-}
-
-.climb-par {
-    grid-area: climb-par;
-}
-
-.climb-par2 {
-    grid-area: climb-par2;
-}
-
-// Fishing grid
+// // Fishing grid
 .grid4 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "fish-head fish-head"
-        "fish-pic fish-pic2"
-        "fish-par fish-par2"
-} 
-
-.fish-head {
-    grid-area: fish-head;
+        "fishing fishing2" 
 }
 
-.fish-pic {
-    grid-area: fish-pic;
-}
 
-.fish-pic2 {
-    grid-area: fish-pic2;
-}
-
-.fish-par {
-    grid-area: fish-par;
-}
-
-.fish-par2 {
-    grid-area: fish-par2;
-}
-
-// Hiking grid
+// // Hiking grid
 .grid5 {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-areas: 
-            "hike-head hike-head"
-            "hike-pic hike-pic2"
-            "hike-par hike-par2" 
-    } 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "hiking hiking2"  
+} 
     
-    .hike-head {
-        grid-area: hike-head;
-    }
-    
-    .hike-pic {
-        grid-area: hike-pic;
-    }
-    
-    .hike-pic2 {
-        grid-area: hike-pic2;
-    }
-    
-    .hike-par {
-        grid-area: hike-par;
-    }
-    
-    .hike-par2 {
-        grid-area: hike-par2;
-    }
 
-
-// Hunting
+// // Hunting
 .grid6 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "hunt-head hunt-head"
-        "hunt-pic hunt-pic2"
-        "hunt-par hunt-par2" 
+        "hunting hunting2"
 } 
 
-.hunt-head {
-    grid-area: hunt-head;
-}
 
-.hunt-pic {
-    grid-area: hunt-pic;
-}
-
-.hunt-pic2 {
-    grid-area: hunt-pic2;
-}
-
-.hunt-par {
-    grid-area: hunt-par;
-}
-
-.hunt-par2 {
-    grid-area: hunt-par2;
-}

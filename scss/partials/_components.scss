@@ -1,5 +1,5 @@
 /* Web Fonts -------------------- */
-@import 'https://fonts.googleapis.com/css?family=Noto+Sans+SC|Unlock|Roboto|Oswald|Fahkwang|Montserrat';
+@import 'https://fonts.googleapis.com/css?family=Noto+Sans+SC|Unlock|Roboto|Oswald|Fahkwang|Abril+Fatface|Montserrat|Fjalla+One';
 @import 'https://use.fontawesome.com/releases/v5.7.0/css/all.css';
 
 
@@ -9,29 +9,27 @@
 
 .navbar {
     overflow: hidden;
-    background-color:  rgba(187, 175, 175, 0.5);
-    margin-top: 50px;
-    margin-bottom: 200px;
-}
-  
-a.text {
-    color: black;
-    font-weight: bold;
-    width: 16px;
-    font-family: 'Montserrat', sans-serif;
+    margin-top: 3.125rem;
+    margin-bottom: 12.5rem;
+    padding-top: 0.625rem;
+    padding-left: 1.25rem;
+    background-color: white;
+    opacity: 0.6;
 }
 
 
 .dropdown-content {
     display: none; 
     position: absolute;
-    top: 78px;
-    left: 180px;
-    min-width: 150px;
+    top: 3.125rem;
+    left: 34.375rem;
+    min-width: 9.375rem;
+    text-align: center;
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
+    background-color: transparent;
 }
 
 .dropdown-content a {
@@ -39,55 +37,49 @@ a.text {
     display: block;
 }
 
-// Activities section
+// Activity grid 
 
-// Camping section
-.camping {
+.grid1,
+.grid2,
+.grid3,
+.grid4,
+.grid5,
+.grid6 {
+margin: 1.25rem 6.25rem;
+}
+
+.activity-pic2 {
+    margin-left: 1.875rem;
+}
+
+.activity-title {
     text-align: center;
-    margin: 10px;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    font-size: 1.0625rem;
+    font-weight: bold;
+    letter-spacing: 0.125rem;
 }
 
-.camp-pic,
-.canoe-pic,
-.climb-pic,
-.fish-pic,
-.hunt-pic,
-.hike-pic {
-    margin-left: 150px;
+.activity-desc {
+    padding-left: 3.125rem;
+    margin-right: 1.25rem;
+    font-family: 'Roboto';
+    letter-spacing: 0.0625rem;
 }
 
-.camp-pic2,
-.canoe-pic2,
-.climb-pic2,
-.fish-pic2,
-.hunt-pic2,
-.hike-pic2 {
-    margin-left: 20px;
+.activity-desc2 {
+    padding-left: 1.875rem;
+    margin-right: 2.8125rem;
+    font-family: 'Roboto';
+    letter-spacing: 0.0625rem;
 }
 
-.camp-par,
-.canoe-par,
-.climb-par,
-.fish-par,
-.hunt-par,
-.hike-par {
+.activity-link {
+    font-family: 'Roboto';
     text-align: center;
-    margin: 10px 100px;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-// Sizing of grid images
-.camp,
-.canoe,
-.climb,
-.fish,
-.hike,
-.hunt {
-    height: 18.75rem;
-    margin: auto;
+    margin-top: 1.875rem;
+    text-transform: uppercase;
 }
 
 
@@ -96,9 +88,9 @@ a.text {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 658px; 
+    height: 41.125rem; 
     text-align: center;
-    margin: -60px 10px 80px 10px;
+    margin: -3.75rem 0 5rem 0;
 }  
 
 
@@ -108,19 +100,26 @@ a.text {
         text-align: center;
         font-size: 5.625rem;
         text-transform: uppercase;
-        font-family: 'Oswald' , sans-serif;
+        font-family: 'Fjalla One';        ;
         font-weight: normal;
         line-height: 1.3;
-        margin: 12px 0 0;
+        margin: 0.75rem 0 0;
+        color: white;
+        opacity: 0.9;
+        text-shadow: 0.125rem 0.125rem black;
+        letter-spacing: 0.5rem;
     }
 
     &-title {
-        color: white;
-        font-size: 1.625rem;
+        font-family: 'Fjalla One';  
+        text-transform: uppercase;
+        color: black;
+        font-weight: bold;
+        font-size: 1.875rem;
         letter-spacing: .065em;
         font-weight: 200;
-        border-bottom: 2px solid;
-        padding-bottom: 10px;
+        border-bottom: 0.125rem solid;
+        padding-bottom: 0.625rem;
     }
 }    
 
@@ -139,29 +138,29 @@ a.text {
     background-repeat: no-repeat;
     background-size: cover;
     max-height: 100%;
-    height: 657px; 
+    height: 41.0625rem; 
     text-align: center;
     opacity: 0.8;
 }
 
 #contact {
     margin-top: 0;
-    margin-bottom: 20px;
-    padding-top: 30px;
+    margin-bottom: 1.25rem;
+    padding-top: 1.875rem;
     text-transform: uppercase;
     text-align: center;
     font-family: 'Fahkwang', sans-serif;
     font-weight: bolder;
-    letter-spacing: 5px;
+    letter-spacing: 0.3125rem;
 }
 
 .submit {
-    -webkit-border-radius:20px;
-    width: 120px;
-    height: 40px;
+    -webkit-border-radius: 0.625rem;
+    width: 7.5rem;
+    height: 2.5rem;
     border: none;
-    margin: 20px 0 30px 0;
-    font-size: 15px;
+    margin: 1.25rem 0 1.875rem 0;
+    font-size: 0.9375rem;
     font-weight: bold;
     outline: none;
 
@@ -169,7 +168,7 @@ a.text {
 
 .submit:hover {
     background-color: pink;
-    width: 140px;
+    width: 8.75rem;
     transition: all .6s ease-in-out;
 }
 
