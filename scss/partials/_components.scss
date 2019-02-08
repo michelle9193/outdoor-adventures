@@ -5,11 +5,16 @@
 
 // Homepage
 
+.wrapper2 {
+    width: 100%;
+    height: auto;
+}
+
 .dropdown-content {
     display: none; 
     position: absolute;
-    top: 3.5rem;
-    left: 640px;
+    top: 3rem;
+    left: 40rem;
     width: 8.125rem;
     text-align: center;
     padding-right: 1.125rem
@@ -36,11 +41,17 @@
 .grid6 {
     margin: 1.25rem 6.25rem;
     background-color: beige;
-    padding: 30px 0;
+    padding: 1.875rem 0;
+}
+
+.activity-pic {
+    width: 100%;
+    height: auto;
 }
 
 .activity-pic2 {
-    margin-left: 1.875rem;
+    width: 100%;
+    height: auto;
 }
 
 .activity-title {
@@ -81,7 +92,8 @@
     background-size: cover;
     height: 41.125rem; 
     text-align: center;
-    margin: -3.75rem 0 5rem 0;
+    margin: -3.75rem 0 6.25rem 0;
+    padding-bottom: 2.5rem;
 }  
 
 
@@ -108,7 +120,7 @@
         text-shadow: 0.125rem 0.125rem black;
         font-weight: bold;
         font-size: 1.875rem;
-        letter-spacing: 2px;
+        letter-spacing: 0.125rem;
         border-bottom: 0.125rem solid;
         padding-bottom: 0.625rem;
     }
@@ -124,16 +136,17 @@
     border-bottom: 0.0625rem solid;
     padding-bottom: 0.75rem;
     margin-bottom: 1.875rem;
+    font-size: 1.25rem !important;
+    letter-spacing: 0.3125rem !important
 }
 
-
 .icons {
-    font-size: 2.25rem
+    font-size: 1.875rem !important
 }
 
 .copyright {
-        font-size: 0.625rem;
-        margin-top: 0.3125rem;
+        font-size: 0.625rem !important;
+        margin: 1.875rem 0 !important;
         font-weight: normal;
 }
   
@@ -141,13 +154,15 @@
 // Gallery
 
 
-
 //=============================================================================================
 // Contact Form
 
 
-.navtop {
+nav.navtop {
     padding-top: 0;
+    padding-bottom: 1.25rem;
+    background-color: rgb(243, 243, 223);
+    opacity: 0.5;
 }
 .container {
     background-image: url(../images/overnight-hiking-trails-oystercatcher-trail.jpg);
@@ -156,6 +171,7 @@
     background-size: cover; 
     text-align: center;
     opacity: 0.8;
+    width: 100%;
 
 }
 
