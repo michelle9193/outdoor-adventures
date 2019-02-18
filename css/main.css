@@ -32,7 +32,7 @@
 .grid6 {
   margin: 1.25rem 6.25rem;
   background-color: beige;
-  padding: 1.875rem 0; }
+  padding: 1.875rem 1.25rem; }
 
 .activity-pic {
   width: 100%;
@@ -116,7 +116,6 @@
 
 .copyright {
   font-size: 0.625rem !important;
-  margin: 1.875rem 0 !important;
   font-weight: normal; }
 
 nav.navtop {
@@ -239,7 +238,8 @@ h2 {
   letter-spacing: 0.625rem;
   text-transform: uppercase;
   padding-top: 0.625rem;
-  margin-top: 4.375rem; }
+  margin-top: 4.375rem;
+  margin-bottom: 1.25rem; }
 
 img {
   width: 100%;
@@ -282,7 +282,7 @@ a.activity-link {
 footer {
   padding-top: 1.875rem;
   margin-top: 9.375rem;
-  height: 11.875rem !important;
+  height: 8.75rem !important;
   background-color: #1d1a1a;
   opacity: 0.9;
   text-align: center;
