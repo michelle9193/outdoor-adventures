@@ -37,5 +37,3 @@ Tools:
 ## Contributors
 
 Michelle Neena Fortuin - 2019
-
-Collapse 
