@@ -1,4 +1,4 @@
-# :evergreen_tree: outdoor-adventures :evergreen_tree:
+# :evergreen_tree: Outdoor Adventures :evergreen_tree:
 
 Project showcasing different activities to do in the Western Cape i.e. fishing, camping, hiking, canoeing, hunting and climbing.
 
