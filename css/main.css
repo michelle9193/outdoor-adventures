@@ -32,7 +32,8 @@
 .grid6 {
   margin: 1.25rem 6.25rem;
   background-color: beige;
-  padding: 1.875rem 1.25rem; }
+  padding: 1.875rem 1.25rem;
+  border-radius: 0.1875rem; }
 
 .activity-pic {
   width: 100%;
