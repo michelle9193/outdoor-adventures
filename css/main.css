@@ -2,7 +2,7 @@
 /* Web Fonts -------------------- */
 @import "https://fonts.googleapis.com/css?family=Noto+Sans+SC|Unlock|Roboto|Oswald|Fahkwang|Abril+Fatface|Montserrat|Fjalla+One|Dancing+Script";
 @import "https://use.fontawesome.com/releases/v5.7.0/css/all.css";
-.wrapper2 {
+.main-wrapper {
   width: 100%;
   height: auto; }
 
@@ -105,7 +105,7 @@
 .secondary-header {
   margin-top: 12.5rem; }
 
-.connect {
+.connect-with-us {
   border-bottom: 0.0625rem solid;
   padding-bottom: 0.75rem;
   margin-bottom: 1.875rem;
@@ -119,7 +119,7 @@
   font-size: 0.625rem !important;
   font-weight: normal; }
 
-nav.navtop {
+nav.secondary-nav {
   padding-top: 0;
   padding-bottom: 1.25rem;
   background-color: #f3f3df;
@@ -132,7 +132,8 @@ nav.navtop {
   background-size: cover;
   text-align: center;
   opacity: 0.8;
-  width: 100%; }
+  width: 100%;
+  height: 100%; }
 
 #contact {
   margin-top: 0;
@@ -162,10 +163,10 @@ nav.navtop {
 
 input::placeholder,
 textarea::placeholder {
-  color: black;
+  color: white;
   font-family: Arial, Helvetica, sans-serif; }
 
-.foothead {
+.secondary-footer {
   margin-top: 0; }
 
 html {
@@ -177,7 +178,7 @@ body {
 
 nav {
   overflow: hidden;
-  padding-top: 2.5rem;
+  padding-top: 3.75rem;
   padding-left: 1.25rem;
   background-color: beige;
   opacity: 0.4; }
@@ -300,45 +301,32 @@ i:nth-child(4) {
   margin-left: 0.9375rem;
   padding-top: 1.875rem; }
 
-form {
-  opacity: 0.8;
-  padding-top: 2rem;
-  margin: 0 26.25rem;
-  border-radius: 0.625rem; }
-
 input {
   height: 2.5rem;
-  border-radius: 0.625rem;
-  border: none;
-  outline: none;
+  border: 2px solid white;
+  background: none;
   padding-left: 1.25rem;
   margin-bottom: 0.9375rem;
-  color: black;
-  background-color: beige;
+  color: white;
   opacity: 0.8;
   width: 25rem; }
 
 select {
   height: 2.5rem;
-  border-radius: 0.625rem;
-  border: none;
-  outline: none;
+  border: 2px solid white;
+  background: none;
   padding-left: 1.25rem;
   margin-bottom: 0.9375rem;
-  color: black;
-  background-color: beige;
+  color: white;
   opacity: 0.8;
   width: 26.25rem;
-  background-color: beige;
   opacity: 0.8; }
 
 textarea {
   width: 23.75rem;
-  border-radius: 0.6875rem;
-  border: none;
-  outline: none;
+  background: none;
+  border: 1px solid white;
   padding: 1.25rem 1.25rem 0 1.25rem;
-  background-color: beige;
   opacity: 0.8; }
 
 button {
@@ -374,13 +362,13 @@ button {
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "hiking-section hiking-section-2"; }
 
-.grid6 {
+.hunt-grid {
   display: grid;
   grid-gap: 1.25rem;
   grid-template-columns: 1fr 1fr;
-  grid-template-areas: "hunting hunting2"; }
+  grid-template-areas: "hunting-section hunting-section-2"; }
 
-.wrapper {
+.grid-wrapper {
   display: grid;
   grid-gap: 0.625rem;
   grid-template-columns: 1fr  1fr 1fr 1fr;

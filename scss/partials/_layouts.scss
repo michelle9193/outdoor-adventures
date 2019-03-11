@@ -47,19 +47,19 @@
     
 
 // // Hunting
-.grid6 {
+.hunt-grid {
     display: grid;
     grid-gap: 1.25rem;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "hunting hunting2"
+        "hunting-section hunting-section-2"
 } 
 
 
 // Gallery grid
 
 
-.wrapper {
+.grid-wrapper {
     display: grid;
     grid-gap: 0.625rem;
     grid-template-columns: 1fr  1fr 1fr 1fr;

@@ -13,7 +13,7 @@ body {
 
 nav {
     overflow: hidden;
-    padding-top: 2.5rem;
+    padding-top: 3.75rem;
     padding-left: 1.25rem;
     background-color: beige;
     opacity: 0.4;
@@ -174,12 +174,6 @@ i:nth-child(4)
 
 // Contact Form
 
-form {
-    opacity: 0.8;
-    padding-top: 2rem;
-    margin: 0 26.25rem;
-    border-radius: 0.625rem;
-}
 
 input {
     @include inputs;
@@ -190,18 +184,15 @@ input {
 select {
     @include inputs;
     width: 26.25rem; 
-    background-color: beige;
     opacity: 0.8;
 }
 
 
 textarea {
     width: 23.75rem;
-    border-radius: 0.6875rem;
-    border: none;
-    outline: none;
-    padding: 1.25rem 1.25rem 0 1.25rem;  
-    background-color: beige;
+    background: none;
+    border: 1px solid white;
+    padding: 1.25rem 1.25rem 0 1.25rem; 
     opacity: 0.8;
 }
 
