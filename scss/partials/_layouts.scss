@@ -1,48 +1,48 @@
 // Camping Grid
-.grid1 {
+.camp-grid {
     display: grid;
     grid-gap: 1.25rem;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "camping camping2"
+        "camping-section camping-section-2"
 }     
 
 // Canoeing gird
-.grid2 {
+.canoe-grid {
     display: grid;
     grid-gap: 1.25rem;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "canoeing canoeing2" 
+        "canoeing-section canoeing-section-2" 
 } 
 
 // Climbing grid
-.grid3 {
+.climb-grid {
     display: grid;
     grid-gap: 1.25rem;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "climbing climbing2" 
+        "climbing-section climbing-section-2" 
 }
 
 
 // // Fishing grid
-.grid4 {
+.fish-grid {
     display: grid;
     grid-gap: 1.25rem;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "fishing fishing2" 
+        "fishing-section fishing-section-2" 
 }
 
 
 // // Hiking grid
-.grid5 {
+.hike-grid {
     display: grid;
     grid-gap: 1.25rem;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "hiking hiking2"  
+        "hiking-section hiking-section-2"  
 } 
     
 

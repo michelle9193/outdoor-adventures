@@ -24,12 +24,12 @@
   text-decoration: none;
   display: block; }
 
-.grid1,
-.grid2,
-.grid3,
-.grid4,
-.grid5,
-.grid6 {
+.camp-grid,
+.canoe-grid,
+.climb-grid,
+.fish-grid,
+.hike-grid,
+.hunt-grid {
   margin: 1.25rem 6.25rem;
   background-color: beige;
   padding: 1.875rem 1.25rem;
@@ -43,7 +43,7 @@
   width: 100%;
   height: auto; }
 
-.activity-title {
+.activity-location {
   text-align: center;
   font-family: 'Roboto';
   text-transform: uppercase;
@@ -51,13 +51,13 @@
   font-weight: bold;
   letter-spacing: 0.125rem; }
 
-.activity-desc {
+.activity-description {
   padding-left: 3.125rem;
   margin-right: 1.25rem;
   font-family: 'Roboto';
   letter-spacing: 0.0625rem; }
 
-.activity-desc2 {
+.activity-description-2 {
   padding-left: 1.875rem;
   margin-right: 2.8125rem;
   font-family: 'Roboto';
@@ -344,35 +344,35 @@ textarea {
 button {
   background-color: beige; }
 
-.grid1 {
+.camp-grid {
   display: grid;
   grid-gap: 1.25rem;
   grid-template-columns: 1fr 1fr;
-  grid-template-areas: "camping camping2"; }
+  grid-template-areas: "camping-section camping-section-2"; }
 
-.grid2 {
+.canoe-grid {
   display: grid;
   grid-gap: 1.25rem;
   grid-template-columns: 1fr 1fr;
-  grid-template-areas: "canoeing canoeing2"; }
+  grid-template-areas: "canoeing-section canoeing-section-2"; }
 
-.grid3 {
+.climb-grid {
   display: grid;
   grid-gap: 1.25rem;
   grid-template-columns: 1fr 1fr;
-  grid-template-areas: "climbing climbing2"; }
+  grid-template-areas: "climbing-section climbing-section-2"; }
 
-.grid4 {
+.fish-grid {
   display: grid;
   grid-gap: 1.25rem;
   grid-template-columns: 1fr 1fr;
-  grid-template-areas: "fishing fishing2"; }
+  grid-template-areas: "fishing-section fishing-section-2"; }
 
-.grid5 {
+.hike-grid {
   display: grid;
   grid-gap: 1.25rem;
   grid-template-columns: 1fr 1fr;
-  grid-template-areas: "hiking hiking2"; }
+  grid-template-areas: "hiking-section hiking-section-2"; }
 
 .grid6 {
   display: grid;
