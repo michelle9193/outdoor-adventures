@@ -145,7 +145,7 @@
     padding-bottom: 0.75rem;
     margin-bottom: 1.875rem;
     font-size: 1.25rem !important;
-    letter-spacing: 0.3125rem !important
+    letter-spacing: 0.3125rem !important;
 }
 
 // Sizing of icons
@@ -175,14 +175,12 @@ nav.secondary-nav {
     opacity: 0.5;
 }
 
-// The entire contact form is wrapped inside the container class
+// The contact form is wrapped inside the container class
 .container {
-    background-image: url(../images/overnight-hiking-trails-oystercatcher-trail.jpg);
-    position: relative;
+    background-image: url(../images/adventure-beautiful-cliff-1659434.jpg);
     background-repeat: no-repeat;
     background-size: cover; 
     text-align: center;
-    opacity: 0.8;
     width: 100%;
     height: 100%;
 }
@@ -194,7 +192,6 @@ nav.secondary-nav {
     margin-bottom: 1.25rem;
     padding-top: 3.125rem;
     text-transform: uppercase;
-    text-align: center;
     font-family: 'Fjalla One';        ;
     color: rgb(39, 37, 37);
     letter-spacing: 0.3125rem;
@@ -203,7 +200,9 @@ nav.secondary-nav {
 // Submit button
 .submit {
     color: black;
-    border-radius: 0.625rem;
+    text-transform: uppercase;
+    border: 1px solid black;
+    letter-spacing: 2px;
     width: 7.5rem;
     height: 2.5rem;
     border: none;
@@ -218,15 +217,17 @@ nav.secondary-nav {
 // Button enlarges sideways when you hover
 .submit:hover {
     opacity: 0,9;
-    width: 8.75rem;
-    transition: all .6s ease-in-out;
+    background-color: black;
+    color: beige;
+    transition: all .10s ease-in-out;
 }
 
 
 // Font and color of placeholders inside inputs and textarea
 input::placeholder,
 textarea::placeholder {
-    color: white;
+    color: black;
+    font-weight: 600;
     font-family: Arial, Helvetica, sans-serif;
 }
 

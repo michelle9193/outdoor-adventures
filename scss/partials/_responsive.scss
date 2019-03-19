@@ -38,7 +38,6 @@
 @media only screen and(max-width: 768px) {
 
     .main {
-
         &-heading {
             font-size: 3rem;
         }
@@ -53,7 +52,29 @@
         line-height: 1.875rem
     }
 
+    .camp-grid,
+    .canoe-grid,
+    .climb-grid,
+    .fish-grid,
+    .hike-grid,
+    .hunt-grid {
+        margin: 1.25rem 1.25rem;
+        padding: 1.25rem 1.25rem;
+        height: 520px;
+    }
 
+    .activity-location {
+        height: 40px;
+    }
+
+    .activity-description,
+    .activity-description-2 {
+        padding-left: 0;
+        margin-right: 0;
+        font-family: 'Roboto';
+        letter-spacing: 0.0625rem;
+        height: 150px;
+    }
 
     footer {
         margin-top: 5.625rem;
