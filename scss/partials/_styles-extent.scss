@@ -66,16 +66,12 @@
 
 // Styling of the description of the 1st activity
 .activity-description {
-    padding-left: 3.125rem;
-    margin-right: 1.25rem;
     font-family: 'Roboto';
     letter-spacing: 0.0625rem;
 }
 
 // Styling of the description of the 2nd activity
 .activity-description-2 {
-    padding-left: 1.875rem;
-    margin-right: 2.8125rem;
     font-family: 'Roboto';
     letter-spacing: 0.0625rem;
 }
@@ -178,13 +174,13 @@ nav.secondary-nav {
 // The contact form is wrapped inside the container class
 .container {
     background-image: url(../images/adventure-beautiful-cliff-1659434.jpg);
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover; 
     text-align: center;
     width: 100%;
     height: 100%;
 }
-
 
 // H1 
 #contact {

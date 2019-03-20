@@ -1,8 +1,6 @@
 /* Media Queries -------------------- */
 
-// ===============================================================================================
 // Homepage
-// ===============================================================================================
 
 @media (max-width: 1024px) {
 
@@ -26,12 +24,91 @@
         letter-spacing: 0.5rem;
     }
 
+    .camp-grid {
+        grid-gap: 0.625rem;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "camping-section camping-section-2"
+            
+    } 
 
-    footer {
-        margin-top: 5.625rem;
+    .canoe-grid {
+        grid-gap: 0.625rem;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "canoeing-section canoeing-section-2" 
+    } 
+
+    .climb-grid {
+        grid-gap: 0.625rem;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "climbing-section climbing-section-2" 
     }
 
-         
+    .fish-grid {
+        grid-gap: 0.625rem;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "fishing-section fishing-section-2" 
+    }
+
+    .hike-grid {
+        grid-gap: 0.625rem;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "hiking-section hiking-section-2"
+    } 
+
+    .hunt-grid {
+        grid-gap: 1.25rem;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "hunting-section hunting-section-2"
+    } 
+
+    .read-more-btn {
+        margin-top: 0;
+        padding-top: 50px;
+    }
+
+     
+    .camp-grid,
+    .canoe-grid,
+    .fish-grid,
+    .hike-grid, 
+    .climb-grid,
+    .hunt-grid {
+        height: 31.25rem;
+    }
+
+    .activity-location {
+        height: 2.25rem;
+    }
+
+    .activity-description,
+    .activity-description-2 {
+        height: 5rem;
+    }
+
+    .connect-with-us {
+        font-size: 15px !important;
+        letter-spacing: 0.3125rem !important;
+    }
+
+    .icons {
+        font-size: 1.125rem !important;
+    }
+    
+    .copyright {
+        font-size: 0.5rem !important;
+    }
+
+    footer {
+        margin-top: 3.125rem;
+    }
+
+            
 }
 //================================================================================================
 
@@ -55,12 +132,17 @@
     .camp-grid,
     .canoe-grid,
     .climb-grid,
-    .fish-grid,
     .hike-grid,
     .hunt-grid {
         margin: 1.25rem 1.25rem;
         padding: 1.25rem 1.25rem;
-        height: 520px;
+        height: 28.125rem;
+    }
+
+    .fish-grid {
+        margin: 1.25rem 1.25rem;
+        padding: 1.25rem 1.25rem;
+        height: 29.375rem;
     }
 
     h2 {
@@ -68,17 +150,23 @@
     }
 
     .activity-location {
-        height: 40px;
+        font-size: 0.9375rem;
+        height: 2.5rem;
     }
 
     .activity-description,
     .activity-description-2 {
+        font-size: 0.875rem;
         padding-left: 0;
         margin-right: 0;
-        font-family: 'Roboto';
-        letter-spacing: 0.0625rem;
-        height: 150px;
+        height: 5rem;
     }
+
+    .read-more-btn {
+        padding-top: 1.875rem;
+        font-size: 0.9375rem; 
+    }
+    
 
     footer {
         margin-top: 5.625rem;
@@ -87,491 +175,298 @@
 
 //==============================================================================================
 
-@media only screen and (max-width: 1200px) {
-    // Camping Grid
-.grid1 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas: 
-        "camping"
-        "camping2"
 
 
-}     
-
-.camping {
-    width: 100%;
-}
-
-// Canoeing gird
-.grid2 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas: 
-        "canoeing"
-        "canoeing2" 
-} 
-
-// Climbing grid
-.grid3 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas: 
-        "climbing" 
-        "climbing2"
-}
-
-
-// // Fishing grid
-.grid4 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas: 
-        "fishing"
-        "fishing2" 
-}
-
-
-// // Hiking grid
-.grid5 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas: 
-        "hiking"  
-        "hiking2"
-} 
+@media only screen and (max-width: 500px) {
     
-
-// // Hunting
-.grid6 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas: 
-        "hunting"
-        "hunting2"
-} 
-   }
-
-
-
-   @media only screen and (max-width: 300px) {
-    // Camping Grid
-.grid1 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas: 
-        "camping"
-        "camping2"
-
-}     
-
-.camping {
-    width: 100%;
-}
-
-// Canoeing gird
-.grid2 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas: 
-        "canoeing"
-        "canoeing2" 
-} 
-
-// Climbing grid
-.grid3 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas: 
-        "climbing" 
-        "climbing2"
-}
-
-
-// // Fishing grid
-.grid4 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas: 
-        "fishing"
-        "fishing2" 
-}
-
-
-// // Hiking grid
-.grid5 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas: 
-        "hiking"  
-        "hiking2"
-} 
+    .main {
+        &-heading {
+            font-size: 1.875rem;
+            margin-top: 2.5rem;
+            line-height: 3.125rem;
+        }
     
+        &-title {
+            font-size: 1.25rem;
+        }
+    }  
 
-// // Hunting
-.grid6 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas: 
-        "hunting"
-        "hunting2"
-} 
-   }
+    .secondary-header {
+        margin-top: 6.25rem;
+    } 
 
+    .main-header {
+        height: 31.25rem; 
+        margin-bottom: 2.5rem;
+    }
 
-
-
-// ==============================================================================================
-// Contact Form
-//================================================================================================
-
-@media (min-width: 2560px) {
-
-    input {
-        height: 3.125rem;
-        width: 31.25rem;
-        margin-bottom: 1.25rem;
+    h3 {
         font-size: 0.9375rem;
-    }
-    
-    
-    select {
-        height: 3.125rem;
-        width: 32.5rem; 
-        font-size: 0.9375rem;
-        margin-bottom: 1.25rem;
-    }
-    
-    textarea {
-        width: 30.3125rem;
-        height: 18.75rem;
-        margin-top: 0;
-        font-size: 0.9375rem;
-    }
-    
-    .submit {
-        text-transform: uppercase;
-        letter-spacing: 0.125rem;
-        height: 3.125rem;
-        margin-top: 1.875rem;
-        margin-bottom: 0.625rem;
-        font-size: 0.9375rem;
-        outline: none;
-    }
-    
-    .container {
-        height: 68.75rem;
-        opacity: 0.6;
-    }
-    
-    #contact {
-        font-size: 3rem;
-        padding: 3.125rem 0 1.875rem 0;
-        letter-spacing: 0.4375rem;
-    }
-    
-    .submit:hover {
-        background-color: pink;
-        width: 15.625rem;
-        transition: all .6s ease-in-out;
-    }
-}
-
-//================================================================================================
-
-@media (max-width: 1024px) {
-
-    form {
-        margin: 0 12.5rem;
+        padding: 0.9375rem;
     }
 
-    input {
-        height: 2.5rem;
-        width: 30rem;
-        margin-bottom: 1.25rem;
-        font-size: 0.9375rem;
-    }
-    
-    
-    select {
-        height: 2.5rem;
-        width: 31.25rem; 
-        font-size: 0.9375rem;
-        margin-bottom: 1.25rem;
-    }
-    
-    textarea {
-        width: 28.75rem;
-        height: 18.75rem;
-        margin-top: 0;
-        font-size: 0.9375rem;
-    }
-    
-    .submit {
-        width: 9.375rem;
-        height: 2.5rem;
-        margin-top: 1.875rem;
-        margin-bottom: 0.625rem;
-        font-size: 0.9375rem;
-        outline: none;
-
-    }
-    
-    .container {
-        height: 68.75rem;
-        opacity: 0.6;
-    }
-    
-    #contact {
-        font-size: 2.375rem;
-        padding: 3.125rem 0 1.875rem 0;
-        letter-spacing: 0.4375rem;
-    }
-    
-    .form {
-        padding: 3.75rem 0 3.125rem;
-        margin-left: 12.5rem;
-        margin-right: 12.5rem;
-      
-    }
-    
-    .submit:hover {
-        background-color: pink;
-        width: 15.625rem;
-        transition: all .6s ease-in-out;
-    }
-}
-
-//================================================================================================
-
-@media (max-width: 768px) {
-
-    input {
-        height: 1.875rem;
-        width: 21.875rem;
-    }
-    
-    select {
-        height: 1.875rem;
-        width: 23.125rem;
-    }
-    
-    textarea {
-        width: 21.25rem;
-        height: 15.625rem;
-        margin-top: 0;
-        font-size: 0.9375rem;
-    }
-    
-    .submit {
-        width: 7.5rem;
-        outline: none;
-
-    }
-    
-    .container {
-        height: 48.75rem;
-        opacity: 0.6;
-    }
-    
-    #contact {
+    h2 { 
         font-size: 1.875rem;
-        padding: 1.875rem 0 1.25rem 0;
-        letter-spacing: 0.4375rem;
-    }
-    
-    .form {
-        padding: 2.5rem 0;
-        margin-left: 8.125rem;
-        margin-right: 8.125rem;
-      
-    }
-    
-    .submit:hover {
-        background-color: pink;
-        width: 12.5rem;
-        transition: all .6s ease-in-out;
-    }
-}
-
-
-//================================================================================================
-
-@media (max-width: 425px) {
-
-
-    form {
-        margin: 0 3.125rem;    
-    }
-
-    input {
-        height: 1.875rem;
-        width: 15.625rem;
-        font-size: 0.625rem;
-        font-weight: bold;
-        margin-bottom: 0.5rem;
-    }
-    
-    select {
-        height: 1.875rem;
-        width: 16.875rem;
-        font-size: 0.625rem;
-        font-weight: bold;
-    }
-    
-    textarea {
-        width: 14.375rem;
-        height: 12.5rem;
-        font-size: 0.625rem;
-        font-weight: bold;
-    }
-    
-    .submit {
-        width: 7.5rem;
-        font-size: 0.5625rem;
-        font-weight: bold;
+        letter-spacing: 0.625rem;
         text-transform: uppercase;
-        letter-spacing: 0.0625rem;
-        outline: none;
-
+        padding-top: 0;
+        margin-top: 3.125rem;
+        margin-bottom: 1.25rem;
     }
 
-    .container {
-        height: 40.625rem;
-        opacity: 0.6;
-    }
-    
-    #contact {
-        font-size: 1.25rem;
-        padding: 1.875rem 0 0.625rem 0;
-        letter-spacing: 0.3125rem;
-    }
-    
-    .form {
-        padding: 1.25rem 0;
-        margin-left: 2.5rem;
-        margin-right: 2.5rem;
-      
-    }
-    
-    .submit:hover {
-        background-color: pink;
-        width: 12.5rem;
-        transition: all .6s ease-in-out;
-    }
-}
-
-footer {
-    height: 8.125rem;
-
-}
-
-.connect {
-    border-bottom: 0.0625rem solid;
-    padding-bottom: 0.75rem;
-    margin-bottom: 1.875rem;
-    font-size: 0.8125rem;
-    letter-spacing: 0.1875rem;
-}
-
-
-.icons {
-    font-size: 1.5625rem
-}
-
-.copyright {
-        font-size: 0.5rem;
-        margin-top: 1.875rem;
-        font-weight: normal;
-}
-
-//================================================================================================
-
-@media (max-width: 375px) {
-    textarea {
-        height: 9.375rem;
-    }
-}
-
-//================================================================================================
-
-@media (max-width: 320px) {
-
-
-    form {
-        padding-top: 0.9375rem;
-    }
-
-
-    input {
-        height: 1.4375rem;
-        width: 12.5rem;
-        font-size: 0.625rem;
-        font-weight: bold;
-        margin-bottom: 0.75rem;
-        border-radius: 0.3125rem;
-
-    }
-    
-    select {
-        height: 1.5625rem;
-        width: 13.75rem;
-        font-size: 0.625rem;
-        font-weight: bold;
-        border-radius: 0.3125rem;
-        margin-bottom: 0.75rem;
-    }
-    
-    textarea {
-        width: 12.5rem;
-        border-radius: 0.25rem;
-        height: 10.625rem;
-        font-size: 0.625rem;
-        font-weight: bold;
-        padding: 0.625rem 0.625rem 0 0.625rem;   
-    }
-    
-    .submit {
-        width: 6.25rem;
-        height: 1.875rem;
-        font-size: 0.5625rem;
-        font-weight: bold;
-        text-transform: uppercase;
-        letter-spacing: 0.0625rem;
-        border-radius: 0.4375rem;
-        margin-top: 1.25rem;
-        outline: none;
-    }
-
-    .container {
-        height: 30rem;
-        opacity: 0.6;
-
-    }
-    
-    #contact {
-        font-size: 0.9375rem;
-        padding-top: 1.875rem;
-        margin-bottom: 0;
-        letter-spacing: 0.3125rem;
-    }
-   
-    
-    .submit:hover {
-        background-color: pink;
-        width: 12.5rem;
-        transition: all .6s ease-in-out;
-    }
-}
-
-//================================================================================================
-
-@media (max-width:425px) {
-    .wrapper {
-        display: block;
+    .camp-grid {
         grid-gap: 0.625rem;
-        grid-template-columns: 1fr  1fr 1fr 1fr;
-        grid-template-rows: repeat(10, 12.5rem);
-        margin: 2.5rem 8.75rem;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "camping-section"
+            "camping-section-2"
+    } 
+
+    .canoe-grid {
+        grid-gap: 0.625rem;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "canoeing-section"
+            "canoeing-section-2" 
+    } 
+
+    .climb-grid {
+        grid-gap: 0.625rem;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "climbing-section"
+            "climbing-section-2" 
     }
-}    
+
+    .fish-grid {
+        grid-gap: 0.625rem;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "fishing-section"
+            "fishing-section-2" 
+    }
+
+    .hike-grid {
+        grid-gap: 0.625rem;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "hiking-section"
+            "hiking-section-2"  
+    } 
+
+    .hunt-grid {
+        grid-gap: 1.25rem;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "hunting-section"
+            "hunting-section-2"
+    } 
+
+    
+    .climb-grid,
+    .hunt-grid {
+        height: 900px;
+    }
+
+    .camp-grid,
+    .canoe-grid,
+    .fish-grid,
+    .hike-grid {
+        height: 1000px;
+    }
+
+    .activity-location {
+        font-size: 0.9375rem;
+        margin-bottom: 0;
+        border-bottom: 0.0625rem solid black
+    }
+
+    .activity-location:after {
+        border-bottom: 0.0625rem solid black;
+        width: 3.125rem;
+    }
+
+    .activity-description,
+    .activity-description-2 {
+        margin-top: 1.25rem;
+        font-size: 0.8125rem;
+        height: 5rem;
+    }
+
+    .read-more-btn {
+        font-size: 0.8125rem;
+    }
+
+    .connect-with-us {
+        font-size: 15px !important;
+        letter-spacing: 0.3125rem !important;
+    }
+
+    .icons {
+        font-size: 1.125rem !important;
+    }
+    
+    .copyright {
+        font-size: 0.5rem !important;
+    }
+
+    footer {
+        margin-top: 3.125rem;
+    }   
+}
+
+
+//=============================================================
+@media only screen and (max-width: 330px) {
+    
+    .main {
+        &-heading {
+            font-size: 1.875rem;
+            margin-top: 1.875rem;
+       }
+        &-title {
+            font-size: 0.9375rem;
+        }
+    }  
+
+    h3 {
+        font-size: 0.75rem;
+        padding: 0.75rem;
+    }
+
+    h2 { 
+        font-size: 1.5625rem;
+        letter-spacing: 0.4375rem;
+        margin-top: 2.5rem;
+        margin-bottom: 0.625rem;
+    }
+
+    .camp-grid {
+        grid-gap: 0.625rem;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "camping-section"
+            "camping-section-2"
+    } 
+
+    .canoe-grid {
+        grid-gap: 0.625rem;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "canoeing-section"
+            "canoeing-section-2" 
+    } 
+
+    .climb-grid {
+        grid-gap: 0.625rem;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "climbing-section"
+            "climbing-section-2" 
+    }
+
+    .fish-grid {
+        grid-gap: 0.625rem;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "fishing-section"
+            "fishing-section-2" 
+    }
+
+    .hike-grid {
+        grid-gap: 0.625rem;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "hiking-section"
+            "hiking-section-2"  
+    } 
+
+    .hunt-grid {
+        grid-gap: 1.25rem;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "hunting-section"
+            "hunting-section-2"
+    } 
+
+    .read-more-btn {
+        font-family: 'Roboto';
+        text-align: center;
+        padding-top: 3.125rem;
+        text-transform: uppercase;
+    }
+    
+    
+    .camp-grid,
+    .climb-grid,
+    .hunt-grid,
+    .canoe-grid,
+    .fish-grid,
+    .hike-grid,
+    {
+        height: 700px;
+    }
+
+    .activity-location {
+        font-size: 0.875rem;
+        height: 2.1875rem;
+
+    }
+
+    .read-more-btn {
+        padding-top: 0;
+    }
+
+    .activity-location:after {
+        border-bottom: 0.0625rem solid black;
+        width: 3.125rem;
+    }
+
+    .activity-description,
+    .activity-description-2 {
+        margin-top: 0.625rem;
+        font-size: 0.6875rem;
+        height: 70px;
+    }
+
+    .connect-with-us {
+        font-size: 15px !important;
+        letter-spacing: 0.3125rem !important;
+    }
+
+    .icons {
+        font-size: 1.125rem !important;
+    }
+    
+    .copyright {
+        font-size: 0.5rem !important;
+    }
+
+    footer {
+        margin-top: 3.125rem;
+    }   
+}
+
+//================================================================
+
+@media only screen and (max-width: 500px) {
+    .grid-wrapper {
+        display: grid;
+        grid-gap: 0.625rem;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(10, 200px);
+        margin: 2.5rem 0;
+    }
+
+
+    .item3,
+    .item4,
+    .item21 {
+        grid-column: span 2;
+    }
+
+    .item6 {
+        grid-row: span 2;
+        grid-column: span 2;
+    }
+}

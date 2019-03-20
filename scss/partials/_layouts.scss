@@ -57,15 +57,13 @@
 
 
 form {
-    display: grid;
     grid-gap: 20px;
     grid-template-columns: 1fr;
     margin: auto;
+    display: block;
 }
 
 // Gallery grid
-
-
 .grid-wrapper {
     display: grid;
     grid-gap: 0.625rem;
@@ -90,6 +88,7 @@ form {
 }
 
 .item4 {
+    grid-column: span 2;
     grid-row: span 2;
 }
 
@@ -128,6 +127,7 @@ form {
     grid-row: span 2;
 }
 
-.item20 {
+.item20,
+.item22 {
     grid-column: span 2;
 }
