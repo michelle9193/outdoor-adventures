@@ -742,7 +742,7 @@ form {
   h2 {
     font-size: 1.5625rem;
     letter-spacing: 0.3125rem; } }
-@media only screen and (max-width: 359px) {
+@media only screen and (max-width: 368px) {
   nav {
     padding-left: 2.375rem; }
 
