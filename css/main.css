@@ -721,7 +721,7 @@ form {
   .icons {
     font-size: 1.125rem !important;
     margin-bottom: 1.875rem; } }
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 398px) {
   nav {
     padding-left: 1.875rem; }
 
@@ -742,6 +742,17 @@ form {
   h2 {
     font-size: 1.5625rem;
     letter-spacing: 0.3125rem; } }
+@media only screen and (max-width: 359px) {
+  nav {
+    padding-left: 2.375rem; }
+
+  li {
+    margin-right: 0.625rem;
+    padding-top: 0.625rem; }
+
+  li.dropdown {
+    width: 5rem;
+    margin-right: 0.625rem; } }
 @media only screen and (max-width: 330px) {
   nav {
     padding-left: 0.625rem; }
