@@ -17,7 +17,7 @@ nav {
     overflow: hidden;
     padding-top: 3.75rem;
     padding-left: 1.25rem;
-    background-color: beige;
+    background-color: $color-prim;
     opacity: 0.4;
 }
 
@@ -25,7 +25,7 @@ nav {
 ul {
     float:right;
     font-size: 0.9375rem;
-    color: beige;
+    color: $color-prim;
     text-align: center;
     text-decoration: none;
     margin: 0.625rem;
@@ -68,7 +68,6 @@ li.dropdown {
 
 
 h3 {
-    font-family: 'Roboto';
     border-top: 0.3125rem solid;
     border-bottom: 0.0625rem solid;
     font-size: 1.25rem;
@@ -85,7 +84,7 @@ p {
 // Activity name e.g camping, hunting, etc.
 h2 {
     text-align: center;
-    color: rgb(24, 23, 23);
+    color: $color-text-base;
     font-family: 'Fjalla One';  
     font-size: 2.5rem;
     letter-spacing: 0.625rem;
@@ -105,9 +104,8 @@ img {
 
 // All a tags to have this property
 a {
-    font-family: 'Roboto';
     text-decoration: none;
-    color: black;
+    color: $color-sec;
     letter-spacing: 0.0625rem;
 }
 
@@ -116,8 +114,7 @@ a {
 a {
     // Tags of dropdown content
     &.text {
-        font-family: "Roboto";
-        color: black;
+        color: $color-sec;
         padding: 0.75rem 0;
         text-decoration: none;
         display: block;
@@ -126,28 +123,27 @@ a {
     }
     // Dropdown-content words
     &.navitem {
-        color: black;
+        color: $color-sec;
         font-weight: bold;
-        font-family: "Roboto";
         text-transform: uppercase;
         letter-spacing: 0.125rem;
     }
 
     // Hover effect on read more button
     &.read-more-btn:hover {
-    background-color:beige;
-    border: 0.125rem solid rgb(29, 26, 26);
-    color: rgb(29, 26, 26);
+    background-color:$color-prim;
+    border: 0.125rem solid $color-text-dark;
+    color: $color-text-dark;
     font-weight: bold;
     border-radius: 0.3125rem;
     }    
 
     // Color, font and styling of read more button
     &.read-more-btn {
-        border: 0.125rem rgb(29, 26, 26) solid;
-        color: white;
+        border: 0.125rem $color-text-dark solid;
+        color: $color-text-light;
         border-radius: 0.25rem;
-        background-color: rgb(29, 26, 26); 
+        background-color: $color-text-dark; 
         padding: 0.625rem;
     }
 }
@@ -181,12 +177,12 @@ select {
 textarea {
     width: 23.75rem;
     background: none;
-    border: 0.0625rem solid black;
+    border: 0.0625rem solid $color-sec;
     padding: 1.25rem 1.25rem 0 1.25rem; 
     opacity: 0.8;
 }
 
 button {
-    background-color: beige;
+    background-color: $color-prim;
 }
 

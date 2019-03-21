@@ -69,7 +69,7 @@
 
     .read-more-btn {
         margin-top: 0;
-        padding-top: 50px;
+        padding-top: 3.125rem;
     }
 
      
@@ -92,7 +92,7 @@
     }
 
     .connect-with-us {
-        font-size: 15px !important;
+        font-size: 0.9375rem !important;
         letter-spacing: 0.3125rem !important;
     }
 
@@ -167,17 +167,42 @@
         font-size: 0.9375rem; 
     }
     
-
     footer {
         margin-top: 5.625rem;
     }
+
+    .icons {
+        margin-bottom: 1.875rem;
+    }
 }
 
-//==============================================================================================
+//=============================================================
+@media only screen and (max-width: 480px) {
 
+    nav {
+        padding-left: 3.75rem;
+    }
 
+    ul {
+        padding: 0;
+        margin: 0;
+        font-size: 0.75rem;
+        float: none;
+    }
+    
+    li {
+        margin-right: 1.25rem;
+        padding-top: 0.625rem;
+    }
 
-@media only screen and (max-width: 500px) {
+    li.dropdown {
+        width: 5.3125rem;
+        margin-right: 1.25rem;
+    }
+
+    .main-header {
+        background-position: center;
+    }  
     
     .main {
         &-heading {
@@ -265,24 +290,24 @@
     
     .climb-grid,
     .hunt-grid {
-        height: 900px;
+        height: 56.25rem;
     }
 
     .camp-grid,
     .canoe-grid,
     .fish-grid,
     .hike-grid {
-        height: 1000px;
+        height: 62.5rem;
     }
 
     .activity-location {
         font-size: 0.9375rem;
         margin-bottom: 0;
-        border-bottom: 0.0625rem solid black
+        border-bottom: 0.0625rem solid $color-sec;
     }
 
     .activity-location:after {
-        border-bottom: 0.0625rem solid black;
+        border-bottom: 0.0625rem solid $color-sec;
         width: 3.125rem;
     }
 
@@ -298,31 +323,82 @@
     }
 
     .connect-with-us {
-        font-size: 15px !important;
+        font-size: 0.9375rem !important;
         letter-spacing: 0.3125rem !important;
     }
 
-    .icons {
-        font-size: 1.125rem !important;
-    }
-    
+  
+    footer {
+        margin-top: 3.125rem;
+    }   
+
     .copyright {
         font-size: 0.5rem !important;
     }
 
-    footer {
-        margin-top: 3.125rem;
-    }   
+    .icons {
+        font-size: 1.125rem !important;
+        margin-bottom: 1.875rem;
+    }
 }
 
 
+
+//=============================================================
+@media only screen and (max-width: 380px) {
+    nav {
+        padding-left: 1.875rem;
+    }
+
+    
+    .main {
+        &-heading {
+            font-size: 1.75rem;
+            margin-top: 1.875rem;
+            line-height: 2.1875rem;
+        }
+    
+        &-title {
+            font-size: 1.0625rem;
+        }
+    }  
+
+    .secondary-header {
+        margin-top: 3.125rem;
+    } 
+
+    h3 {
+        font-size: 0.8125rem;
+        padding: 0.8125rem;
+    }
+
+    h2 { 
+        font-size: 1.5625rem;
+        letter-spacing: 0.3125rem;
+    }
+}
+
 //=============================================================
 @media only screen and (max-width: 330px) {
-    
+
+    nav {
+        padding-left: 0.625rem;
+    }
+  
+    li {
+        margin-right: 0.75rem;
+        padding-top: 0.625rem;
+    }
+
+    li.dropdown {
+        width: 5rem;
+        margin-right: 0.9375rem;
+    }
     .main {
         &-heading {
             font-size: 1.875rem;
             margin-top: 1.875rem;
+            line-height: 2.5rem;
        }
         &-title {
             font-size: 0.9375rem;
@@ -332,6 +408,7 @@
     h3 {
         font-size: 0.75rem;
         padding: 0.75rem;
+        
     }
 
     h2 { 
@@ -404,7 +481,7 @@
     .fish-grid,
     .hike-grid,
     {
-        height: 700px;
+        height: 43.75rem;
     }
 
     .activity-location {
@@ -418,7 +495,7 @@
     }
 
     .activity-location:after {
-        border-bottom: 0.0625rem solid black;
+        border-bottom: 0.0625rem solid $color-sec;
         width: 3.125rem;
     }
 
@@ -426,11 +503,11 @@
     .activity-description-2 {
         margin-top: 0.625rem;
         font-size: 0.6875rem;
-        height: 70px;
+        height: 4.375rem;
     }
 
     .connect-with-us {
-        font-size: 15px !important;
+        font-size: 0.9375rem !important;
         letter-spacing: 0.3125rem !important;
     }
 
@@ -454,7 +531,7 @@
         display: grid;
         grid-gap: 0.625rem;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(10, 200px);
+        grid-template-rows: repeat(10, 12.5rem);
         margin: 2.5rem 0;
     }
 

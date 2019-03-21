@@ -1,35 +1,20 @@
 // Descriptive color variables
 
-$white : #fff;
+$beige : #f5f5dc;
 $black : #000;
-$grey : #878787;
-$regent-st-blue : #add8e6;
-$river-bed : #48525c;
-$yellow-orange : #ffa949;
-$light-yellow : #ffffff;
-$dark-yellow : #fffc00;
-$color-text-dark: #2a2a2a;
-
+$white : #fff;
+$black2: #1d1a1a;
+$color-text-heading: #272525;
 
 // Functional color variables
 
-$color-prim : $yellow-orange;
-$color-sec : $river-bed;
+$color-prim : $beige;
+$color-sec : $black;
 
-$color-head-light: rgba($light-yellow, 0.8);
-$color-head-dark: rgba($dark-yellow, 0.8);
+$color-text-dark : $black2;
+$color-text-light: $white;
 
-$color-text-light : $white;
-$color-text-base : $grey;
-$color-text-dark : $river-bed;
+$color-text-base : $color-text-heading;
 
-$color-border-light : lighten($grey, 35%);
-$color-border-dark : $yellow-orange;
-
-$color-link-default : $yellow-orange;
-$color-link-visited : $regent-st-blue;
-
-$color-shadow : rgba($black, .8);
-$color-body : $white;
-
-
+$color-shadow : rgba($black, .1);
+$color-body: rgba($black, .5);
