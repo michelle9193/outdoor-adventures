@@ -630,6 +630,30 @@
     }   
 }
 
+//=============================================================
+@media only screen and (max-width: 314px) {
+    nav {
+        padding-left: 0.625rem;
+    }
+}
+
+//=============================================================
+@media only screen and (max-width: 303px) {
+    nav {
+        padding-left: 10px;
+    }
+
+    li {
+        margin-right: 0.5625rem;
+        padding-top: 0.625rem;
+    }
+
+    li.dropdown {
+        width: 5rem;
+        margin-right: 0.5625rem;
+    }
+}
+
 //================================================================
 
 @media only screen and (max-width: 500px) {
